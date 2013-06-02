@@ -497,6 +497,24 @@ onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-to
 <hr style="border-color: #EEEEEE -moz-use-text-color;">
 <img  class="pull-right" style="margin-top:-40px;" src="imatges/home/upcomming/picto_upcomming.png" width="35" height="35">      
        <div class="row-fluid" style="margin-bottom:50px;">
+       <? $i=1; foreach( $events as $item): ?>
+   <div class="span3" style="border:none; margin-top:20px;">
+       <p class="tipo_agenda_text">
+<img width="20" height="auto" src="views/imatges/agenda/picto_agenda.png"><?= $item['date_ini']  ?></p>
+<p class="tipo_agenda_titol_home"><?= $item['title']  ?></p>
+<p class="tipo_agenda_text"><?= $item['description']  ?>
+</p>
+<a href="agendaDetail.php">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
+</a>
+       </div>
+   <? 
+   	if ($i % 3 == 0) echo '</div><div class="row-fluid">';
+   	$i++;
+   	endforeach; ?>
+</div>
+       <!--
+
        <div class="span3" style="border:none; margin-top:20px;">
        <p class="tipo_agenda_text">
 <img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
@@ -545,22 +563,7 @@ Anurag Mairal (Director - Global Exchange Programs)
 <img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
 </a>
        </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-<p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-       </div>
+-->
        
     
        
@@ -586,6 +589,19 @@ Anurag Mairal (Director - Global Exchange Programs)
 <hr>
 <img  class="pull-right" style="margin-top:-40px;" src="imatges/home/latest_news/picto_latestnews.png" width="35" height="35">      
        <div class="row-fluid" style="margin-bottom:50px;">
+       <? $i=1; foreach($news as $item): ?>
+      <div class="span3" style="border:none; margin-top:20px;">
+       
+<p class="tipo_agenda_titol_home" style="color:#EC1C24;"><?= $item['title'] ?></p>
+<p class="tipo_agenda_text"><?= $item['description'] ?></p>
+<a href="#">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
+</a>
+       </div>
+    <? 
+   if ($i % 3 == 0) echo '</div><div class="row-fluid">';
+   $i++;
+   endforeach; ?>
        <div class="span3" style="border:none; margin-top:20px;">
        
 <p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
