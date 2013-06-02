@@ -1,81 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Moebio | Accelerating Healthcare Entrepreneurship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We are a disruptive talent initiative where health, business, technology and design meet.">
-    <meta name="keywords" content="Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
-    <meta name="author" content="">
-    <meta name="robots" content="index, follow" />
-    
-     
- <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<script type="text/javascript">
-  TypekitConfig = {
-    kitId: 'tcn6swg.js',
-    scriptTimeout: 5000
-  };
-  (function() {
-    var h = document.getElementsByTagName('html')[0];
-    h.className += ' wf-loading';
-    var t = setTimeout(function() {
-      h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, '');
-      h.className += ' wf-inactive';
-    }, TypekitConfig.scriptTimeout);
-    var tk = document.createElement('script');
-    tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
-    tk.type = 'text/javascript';
-    tk.async = 'true';
-    tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      clearTimeout(t);
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(tk, s);
-  })();
-</script>
-   
-<!-- google analytics-->
-    <script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38950454-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script>
-
-
-
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="moebio.css" rel="stylesheet" type="text/css"/>
-    <link media="only screen and (max-device-width: 480px)" href="iphone.css" 
-type= "text/css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]> 
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-   [endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-   
-                                   <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
-                                   
                                     
                                    
     <style>
@@ -131,8 +54,8 @@ type= "text/css" rel="stylesheet">
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -167,7 +90,7 @@ type= "text/css" rel="stylesheet">
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -187,17 +110,17 @@ type= "text/css" rel="stylesheet">
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
       <h1 class="tipo_fil">About Moebio  > The initiative<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/the_initiative.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/the_initiative.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/the_initiative.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/the_initiative.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/the_initiative.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/the_initiative.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       </h1>
@@ -224,16 +147,16 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
      <!-- <div id="backgroundpastilla" style="margin-top:40px; min-height:593px;  margin-bottom:100px;">
       
       
-       <p><img src="imatges/fotovidre.png" width="263" height="auto" style="padding-left:15px; padding-top:30px;"></p>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:30px;"><img src="imatges/picto_calendari.png" width="19" height="22" style="margin-right:10px;">7 MONTH <span class="tipo_menu9">Full Time Program</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p><img src="views/imatges/fotovidre.png" width="263" height="auto" style="padding-left:15px; padding-top:30px;"></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:30px;"><img src="views/imatges/picto_calendari.png" width="19" height="22" style="margin-right:10px;">7 MONTH <span class="tipo_menu9">Full Time Program</span></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;"><img src="imatges/picto_rellotge.png" style="margin-right:10px;">STARTING DATE: <span class="tipo_menu9">September 2013</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;"><img src="views/imatges/picto_rellotge.png" style="margin-right:10px;">STARTING DATE: <span class="tipo_menu9">September 2013</span></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
-       <p span class="tipo_menu8"  style=" max-width:240px; padding-left:25px;"><img src="imatges/picto_profile.png" style="margin-right:10px;">PROFILES: <span class="tipo_menu9">Graduates and PHd in Health, Bio, Tech, Business and Design.</span></p>
+       <p span class="tipo_menu8"  style=" max-width:240px; padding-left:25px;"><img src="views/imatges/picto_profile.png" style="margin-right:10px;">PROFILES: <span class="tipo_menu9">Graduates and PHd in Health, Bio, Tech, Business and Design.</span></p>
       
-      <p><img src="imatges/bio/want_verd_petit.png" onmouseover="this.src='imatges/bio/want_vermell_petit.png'"
+      <p><img src="views/imatges/bio/want_verd_petit.png" onmouseover="this.src='imatges/bio/want_vermell_petit.png'"
 onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25px; margin-top:50px;"></p>
           
           
@@ -247,7 +170,7 @@ onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25p
        <h1 class="tipo_menu_bio_titol" style="padding-bottom:30px;">The initiative</h1>
        
 
-       <p class="tipo_bio_text"><img src="imatges/about/imatge_initiative.jpg" width="295" height="380" style="float:left; margin-right:20px; margin-bottom:20px;">MOEBIO is a disruptive talent development initiative of Biocat where life sciences, health, business and technology meet in a new level to accelerate entrepreneurship in healthcare. It is an integral, new educational programme focused on solving society's great problems and challenges by creating the future generation of innovators in healthcare. Through a unique combination of lectures and real experiences, it gives to talented professionals both the knowledge and the skills to boost the transition from ideas to products. MOEBIO acts as a catalyst for new business models and it fosters the creation of new companies and of innovative technologies and services in the healthcare sector. 
+       <p class="tipo_bio_text"><img src="views/imatges/about/imatge_initiative.jpg" width="295" height="380" style="float:left; margin-right:20px; margin-bottom:20px;">MOEBIO is a disruptive talent development initiative of Biocat where life sciences, health, business and technology meet in a new level to accelerate entrepreneurship in healthcare. It is an integral, new educational programme focused on solving society's great problems and challenges by creating the future generation of innovators in healthcare. Through a unique combination of lectures and real experiences, it gives to talented professionals both the knowledge and the skills to boost the transition from ideas to products. MOEBIO acts as a catalyst for new business models and it fosters the creation of new companies and of innovative technologies and services in the healthcare sector. 
 Biocat is the organization that coordinates and promotes the biotechnology, biomedicine and medical technology sector in Catalonia. Created in 2006 thanks to the Government of Catalonia and the Barcelona City Council, Biocat brings together administrations, universities, research centers, companies and support bodies from all areas of the biomedicine and biotechnology sector with a major goal: to create an environment with a strong research system, active transfer of knowledge and an entrepreneuring business fabric that acts as a driving force for the country's economy and contributes to the wellbeing of society as a whole.
 </p>
        
@@ -264,24 +187,24 @@ Biocat is the organization that coordinates and promotes the biotechnology, biom
             <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-left:0px; ">
       <div id="backgroundpastilla">
       <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;">—MOEBIO'S VISION</h2>
-      <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    <h2 span class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHY</h2>
+      <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
+    <h2 span class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHY</h2>
           <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">To empower leaders who can transform society and make a better future. 
 </p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-      <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> HOW</h2>
+          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+      <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> HOW</h2>
           <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">Training a new generation of entrepreneurs to solve widespread global needs in the healthcare system.</p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHAT</h2>
+          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHAT</h2>
           <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">A 8 months full time Design Health course and short focused programs.</p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> FOR WHOM</h2>
+          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> FOR WHOM</h2>
           <p class="tipo_menu4" style=" max-width:240px; padding-left:25px; height:76px; margin-bottom:0px;">Graduates and PhDs in Health, Bio, Tech, Business and Design.</p>
           
           
 
 </div>
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46"></div>
+      <img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46"></div>
       
       </div>
       
@@ -314,7 +237,7 @@ Biocat is the organization that coordinates and promotes the biotechnology, biom
 <div id="push">
         
         
-         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -330,7 +253,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
 
 <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal" style="text-align:center;font-size:20px;">TUITION</h3>
 <p class="tipo_text_modal_alert2" style="font-size:20px;">The cost for the eight-months program, including the clinical immersion, the prototyping of the products and services created and the lectures and workshops from over 50 international experts exceeds the tuition. However, the organization has set a discounted price for the first edition to facilitate the access to the most interested and prepared people.
 We are also working with several entities to launch a scholarship program that will partially cover tuition. Applicants who have pre-registered to the course and people who have filled the form to stay informed about Moebio program news will be promptly notified when scholarships are available.</p>
@@ -344,7 +267,7 @@ We are also working with several entities to launch a scholarship program that w
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -718,7 +641,7 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
@@ -731,15 +654,15 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
 onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
 onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
 onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
 onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
        
       
@@ -751,7 +674,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
      <div id="footer">
       <div class="container">
@@ -796,19 +719,19 @@ T. +34 933 10 33 30<br>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="views/assets/js/jquery.js"></script>
+    <script src="views/assets/js/bootstrap-transition.js"></script>
+    <script src="views/assets/js/bootstrap-alert.js"></script>
+    <script src="views/assets/js/bootstrap-modal.js"></script>
+    <script src="views/assets/js/bootstrap-dropdown.js"></script>
+    <script src="views/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="views/assets/js/bootstrap-tab.js"></script>
+    <script src="views/assets/js/bootstrap-tooltip.js"></script>
+    <script src="views/assets/js/bootstrap-popover.js"></script>
+    <script src="views/assets/js/bootstrap-button.js"></script>
+    <script src="views/assets/js/bootstrap-collapse.js"></script>
+    <script src="views/assets/js/bootstrap-carousel.js"></script>
+    <script src="views/assets/js/bootstrap-typeahead.js"></script>
     
     <script src="moebio.js"></script>
     

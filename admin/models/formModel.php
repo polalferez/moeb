@@ -54,10 +54,13 @@ class formModel extends ModelBase
         		if ($fields[$i] != 'id'  )	{					
         			$retrieved = '';		
         			if ($fields_types[$i] != 'file_img' and $fields_types[$i] != 'file_file' and isset($_POST[$fields[$i]])){
-        				$retrieved = $_POST[$fields[$i]];
+        				$retrieved = gett($fields[$i]);
         			}
-        			if ($fields_types[$i] == 'file_img' or $fields_types[$i] == 'file_file' and $_FILES[$fields[$i]]['name'] != "" or $fields_types[$i] != 'file_img' and $fields_types[$i] != 'file_file'){
-        				if (!class_exists($fields_types[$i])) die ("La clase ".$fields_types[$i]." no existe");
+
+        			
+        			if (!class_exists($fields_types[$i])) die ("La clase ".$fields_types[$i]." no existe");
+        			if (($fields_types[$i] == 'file_img' and $_FILES[$fields[$i]]['name'] != "" or $fields_types[$i] == 'file_file' and $_FILES[$fields[$i]]['name'] != "") or $fields_types[$i] != 'file_img' and $fields_types[$i] != 'file_file'){
+        				
         				$field_aux = new $fields_types[$i]($fields[$i],$fields_labels[$i],$fields_types[$i],$retrieved,$table,$rid);
         				$edit_info_form .= " ".$table.".".$fields[$i]." = '".$field_aux->exec_edit()."',";
         			}

@@ -13,7 +13,7 @@ class aboutController extends ControllerBase
 			$data = Array(
 				  "items" => $items->getAll()
 		          );         
-			$this->view->show("the_initiative.php", $data);
+			$this->view->show("about.php", $data);
 		}
 		
 		public function detail(){

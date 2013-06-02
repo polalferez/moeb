@@ -11,7 +11,6 @@ class homeController extends ControllerBase
 			require "models/homeModel.php"; 	
 		    require "models/crossconceptsModel.php"; 	
 			require "models/about_modulsModel.php"; 	
-		    require "models/crossconceptsModel.php"; 	
 		    require "models/agendaModel.php"; 	
    		    require "models/newsModel.php"; 				
    		    require "models/thoughtsModel.php"; 				
@@ -27,7 +26,7 @@ class homeController extends ControllerBase
 			$data = Array(
 				  "items" => $items->getAll(),
   				  "about" => $about->getAll(),
-  				  "cross" => $cross->getRelated(0,5),
+  				  "cross" => $cross->getAll(),
   				  "events" => $agenda->getRelated(0,4),
   				  "news" =>$news->getRelated(0,4),
   				  "thoughts" =>$thou->getRelated(0,4),
