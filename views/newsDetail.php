@@ -53,8 +53,8 @@
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -89,7 +89,7 @@
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -109,17 +109,17 @@
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
       <h1 class="tipo_fil">News  >  Hospital robot could reduce human errors and save lives<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/news1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/news1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/news1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/news1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/news1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/news1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       
@@ -136,12 +136,12 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
      <div class="row" style="margin-bottom:50px;">
      <div class="span_text_about">
-     <p class="tipo_search_results3"><img src="imatges/agenda/picto_agenda.png"> <strong>Date:</strong><?= $items['data'] ?></p>
+     <p class="tipo_search_results3"><img src="views/imatges/agenda/picto_agenda.png"> <strong>Date:</strong><?= $items['data'] ?></p>
      <h1 class="tipo_titol_thoughts_video"><?= $items['title'] ?></h1>
      <p class="tipo_news_titol2" style="margin-bottom:25px;"><?= $items['description'] ?></p>
      
       <div id="video_image">
-     <img src="file/img/<?= $items['foto'] ?>" width="646" height="354">
+     <img src="views/file/img/<?= $items['foto'] ?>" width="646" height="354">
      </div>
      <div id="video_play">
      <div class="video-container">
@@ -150,7 +150,7 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
      </div>
      <p class="tipo_news_text" style="margin-top:20px;"><?= $items['content'] ?></p>
 <hr>
-<p class="tipo_search_results3"><img src="imatges/source.png"> <strong>Source:</strong><?= $items['autor'] ?></p>
+<p class="tipo_search_results3"><img src="views/imatges/source.png"> <strong>Source:</strong><?= $items['autor'] ?></p>
  <hr>    
      </div>
      
@@ -158,19 +158,19 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       <div id="backgroundpastilla">
       <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="news.php">— MORE NEWS</a></h2>
 
-      <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
+      <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
     
      <p class="tipo_agenda_titol" style="padding-left:25px; padding-right:25px;">DEVICE TESTS DRUGS ON A TUMOUR THAT'S STILL IN THE BODY</p>
       <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">The technology would allow oncologists to test potentially harmful compounds in tiny amounts before giving patients a full dose.</p>
      
-      <a href="news2.php"><img src="imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a>
+      <a href="news2.php"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a>
          
           
 
 </div>
  
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
+      <img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
       
     
 </div>
@@ -204,7 +204,7 @@ onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a>
 <div id="push">
         
         
-        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -220,7 +220,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -594,7 +594,7 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
@@ -607,16 +607,16 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
-onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
-onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
+onmouseover="this.src='views/imatges/socialpictos/linkedin2.png'"
+onmouseout="this.src='views/imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
-onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='views/imatges/socialpictos/facebook2.png'"
+onmouseout="this.src='views/imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
-onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='views/imatges/socialpictos/twiteer2.png'"
+onmouseout="this.src='views/imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
         
        
         
@@ -628,7 +628,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
 
        <div id="footer">

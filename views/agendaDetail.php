@@ -1,81 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Moebio | Accelerating Healthcare Entrepreneurship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We are a disruptive talent initiative where health, business, technology and design meet.">
-    <meta name="keywords" content="Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
-    <meta name="author" content="">
-    <meta name="robots" content="index, follow" />
     
-     
- <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript">
-  TypekitConfig = {
-    kitId: 'tcn6swg.js',
-    scriptTimeout: 5000
-  };
-  (function() {
-    var h = document.getElementsByTagName('html')[0];
-    h.className += ' wf-loading';
-    var t = setTimeout(function() {
-      h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, '');
-      h.className += ' wf-inactive';
-    }, TypekitConfig.scriptTimeout);
-    var tk = document.createElement('script');
-    tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
-    tk.type = 'text/javascript';
-    tk.async = 'true';
-    tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      clearTimeout(t);
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(tk, s);
-  })();
-</script>
-   
-<!-- google analytics-->
-    <script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38950454-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script>
-
-
-
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="moebio.css" rel="stylesheet" type="text/css"/>
-    <link media="only screen and (max-device-width: 480px)" href="iphone.css" 
-type= "text/css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]> 
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-   [endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-   
-                                   <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
-                                   
     <style>
   
   
@@ -130,8 +53,8 @@ type= "text/css" rel="stylesheet">
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="views/views/imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/views/imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -166,7 +89,7 @@ type= "text/css" rel="stylesheet">
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -187,11 +110,11 @@ type= "text/css" rel="stylesheet">
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
       <h1 class="tipo_fil">Agenda > Design Health Barcelona Introduction Event <div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="views/views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
     <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
@@ -208,25 +131,24 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
       </h1>
       <div class="span6" style="float:none; margin-left:0px;">
-      <h1 class="tipo_titol1">— AGENDA</h1>
+      <h1 class="tipo_titol1">— AGENDA </h1>
       </div>
       <h1><hr></h1>
       
      <div class="row" style="margin-bottom:50px;">
      <div class="span_text_about">
-     <h1 class="tipo_titol_thoughts_video">MOEBIO's COMING-OUT </h1>
-     <p class="tipo_menu_bio_titol" style="color: #6DC5A0;"><strong>MOEBIO, the disruptive talent development initiative to accelerate healthcare entrepreneurship, comes-out at former Astoria theatre, Barcelona.</strong></p>
+     <h1 class="tipo_titol_thoughts_video"><?= $items['title'] ?></h1>
+     <p class="tipo_menu_bio_titol" style="color: #6DC5A0;"><strong><?= $items['description'] ?></strong></p>
      <p>
-     <img src="views/imatges/share_gris.png" width="39" height="9" style="margin-right:10px;"> <img width="16" height="16" src="imatges/about/advisory/picto_in.png">
-<img width="16" height="16" src="imatges/about/advisory/picto_f.png">
-<img width="16" height="16" src="imatges/about/advisory/picto_t.png">
+     <img src="views/imatges/share_gris.png" width="39" height="9" style="margin-right:10px;"> <img width="16" height="16" src="views/imatges/about/advisory/picto_in.png">
+<img width="16" height="16" src="views/imatges/about/advisory/picto_f.png">
+<img width="16" height="16" src="views/imatges/about/advisory/picto_t.png">
 </p>
      
 <hr>
-     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"> Tuesday, April 16, 2013</span></p>
-     <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"> 7:00 pm - 9:00 pm</span></p>
-     <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"> CCCB, Centre de Cultura Contemporània de Barcelona,<br> 
-Sala Teatre, C/Montalegre, 5, Barcelona</span></p>
+     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"><?= $items['data_ini'] ?></span></p>
+     <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"><?= $items['time_ini'] ?></span></p>
+     <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"><?= $items['venue'] ?></span></p>
 <p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"> Associació de Biotecnòlegs de Madrid
 <br></span></p>
 <p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"> Federació Espanyola de Biotenòlegs (FEBiotech) i Societat Espanyola de Neurociència
@@ -235,9 +157,7 @@ Sala Teatre, C/Montalegre, 5, Barcelona</span></p>
 <p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="#"> www.loremipsum.com</a></span></p>
      <hr>
      
-     <p class="tipo_news_text">
-Adiam re nit mos ne dolupti sinullitia aut maxim excearuptat quidero voluptatque est, seque sitiori busanduciet ommo comnihilique velentu rectoristios rem. Nam qui ad molore cone provita ssunt.<br><br>
-Et hari abor modit, quo tenimincil idundandis inciendis ducimus, sum que et autem ipsae suntincti doluptum num fugia nus, tem aliquianti ommo inim vel molupta quaectentur adipica tquam, quid maiore lit ventiisquo volupieturit lacitio. Ovid ut rem. Nequamentem iscim quis am res alicipsam, ut dolore niscitem autem facit qu.</p>
+     <p class="tipo_news_text"><?= $items['content'] ?></p>
 <p class="tipo_search_results3"><img src="views/imatges/agenda/picto_agenda.png"> <span style="font-family:Arial, Helvetica, sans-serif; font-size:12px;">ADD TO MY CALENDAR</span></p>
 
 
