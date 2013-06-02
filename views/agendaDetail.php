@@ -1,7 +1,5 @@
-                             
+    
     <style>
-	
-	
   
   
 	
@@ -40,12 +38,13 @@
   </style>                                  
    <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-<![endif]-->  
+<![endif]--> 
+    
   </head>
 
   <body>
 
- <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top"><!--header-->
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -54,8 +53,8 @@
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -90,7 +89,7 @@
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -104,357 +103,127 @@
         
         
       </div>
-    </div>
+    </div><!--header-->
+
 
     
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
-      <h1 class="tipo_fil">About Moebio  > Cross-concepts<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+      <h1 class="tipo_fil">Agenda > Design Health Barcelona Introduction Event <div class="dropdown pull-right">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
-   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/cross_concepts.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/cross_concepts.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/cross_concepts.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/event1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/event1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/event1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
+      
+         
+      
+      
+      
+      
       </h1>
       <div class="span6" style="float:none; margin-left:0px;">
-      <h1 class="tipo_titol1">— ABOUT MOEBIO</h1>
+      <h1 class="tipo_titol1">— AGENDA </h1>
       </div>
       <h1><hr></h1>
       
-      
-      
-      <div class="row">
-      
-      
-      
-      <div class="span_pastilladreta" style="max-width:296px; margin-top:30px; ">
-      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="the_initiative.php">The initiative</a></h2>
-      <h2 class="tipo_menu_bio2"  style="margin-top:0px; margin-bottom:0px;"><a href="why_barcelona.php">Why Barcelona</a></h2>
-      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="advisory_board.php">Advisory board</a></h2>
-      <h2 class="tipo_menu_bio" style="margin-top:0px; margin-bottom:0px;">Cross-concepts</h2>
-      
-      
-      </div>
-      
-     <!-- <div id="backgroundpastilla" style="margin-top:40px; min-height:593px;  margin-bottom:100px;">
-      
-      
-       <p><img src="imatges/fotovidre.png" width="263" height="auto" style="padding-left:15px; padding-top:30px;"></p>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:30px;"><img src="imatges/picto_calendari.png" width="19" height="22" style="margin-right:10px;">7 MONTH <span class="tipo_menu9">Full Time Program</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
-       
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;"><img src="imatges/picto_rellotge.png" style="margin-right:10px;">STARTING DATE: <span class="tipo_menu9">September 2013</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
-       
-       <p span class="tipo_menu8"  style=" max-width:240px; padding-left:25px;"><img src="imatges/picto_profile.png" style="margin-right:10px;">PROFILES: <span class="tipo_menu9">Graduates and PHd in Health, Bio, Tech, Business and Design.</span></p>
-      
-      <p><img src="imatges/bio/want_verd_petit.png" onmouseover="this.src='imatges/bio/want_vermell_petit.png'"
-onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25px; margin-top:50px;"></p>
-          
-          
-
-</div>-->
-
-      
-      
+     <div class="row" style="margin-bottom:50px;">
+     <div class="span_text_about">
+     <h1 class="tipo_titol_thoughts_video"><?= $items['title'] ?></h1>
+     <p class="tipo_menu_bio_titol" style="color: #6DC5A0;"><strong><?= $items['description'] ?></strong></p>
+     <p>
+     <img src="views/imatges/share_gris.png" width="39" height="9" style="margin-right:10px;"> <img width="16" height="16" src="views/imatges/about/advisory/picto_in.png">
+<img width="16" height="16" src="views/imatges/about/advisory/picto_f.png">
+<img width="16" height="16" src="views/imatges/about/advisory/picto_t.png">
+</p>
      
-       <div class="span_text_about pull-right" style="margin-top:0px; ">
-       <h1 class="tipo_menu_bio_titol" style="padding-bottom:30px;">Cross-concepts</h1>
-       
-       <p class="tipo_bio_text" style="margin-bottom:30px;">d·HEALTH is the result of applying design thinking principles to healthcare: Enabling the discovery of insights using new methods for modelling patient experience. Generating unexpected ideas. Fostering innovative prototyping for exploring new healthcare service delivery systems.
-</p>
-       
-       <div class="row-fluid">
-       
-       <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >COLLINOVATE</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >COLLINOVATE</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">COLLINOVATE</p>
-<p class="tipo_agenda_text">
-Innovation does not take place in isolation. Truly productive invention is a team sport that requires the collaboration of minds from myriad perspectives. In the next decade we all will need to become Collinovators.<br>
-"You can invent alone. But you cannot innovate alone. You need partners".
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-         
-           <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >BIOINNOVATE</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >BIOINNOVATE</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">BIOINNOVATE</p>
-<p class="tipo_agenda_text">
-Innovation is not equal in every discipline. Bioinnovation will be the most prevalent field in medicine. In the next decade, innovation in the biomedical and techmed worlds will impact the world as much as technology development has impacted the world in the last decades.
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-       
-       
-       
-       
-       </div>
-       
-       
-       
-       
-       
-       <div class="row-fluid">
-       
-          <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >MULTINOMICS</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >MULTINOMICS</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">MULTINOMICS</p>
-<p class="tipo_agenda_text">
-Innovation emerges at the intersection of disciplines, cultures and personal experiences. It is a new science waiting to be created.a set of tools and methods called Multinomics.
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-         
-           <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >TECHNOMICS</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >TECHNOMICS</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">TECHNOMICS</p>
-<p class="tipo_agenda_text">
-The rate of technology innovation has never been greater and the tools at our disposal have never been more powerful. Technomics is the science of technological evolution and convergence. 
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-       
-       
-       
-       
-       
-       
-       </div>
-       
-       
-       
-       
-       
-       <div class="row-fluid">
-       
-          <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >BUSCIENCE</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >BUSCIENCE</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">BUSCIENCE</p>
-<p class="tipo_agenda_text">
-The world is changing year to year, not century to century or decade to decade. The value and wealth creation of the next years will be at the intersection of Science & Technology. However, discoveries in Science & Technology need to be transformed into business. The most important interface of the next years will be between Science and Business.
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-         
-           <div class="span6">
-       
-          <a href="#">
-          
-         
-        <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
-        <img src="imatges/about/cross_concepts/img_cross.png"  style="margin-bottom:20px;">
-        <div class="img-info2" >
-        
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >INNOMICS</h4>
-          
-        </div>
-        
-        <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >INNOMICS</h4>
-            
-        </div>
-        
-        
-    </div>
-       
-         </a>
-         
-         <p class="tipo_agenda_titol">INNOMICS</p>
-<p class="tipo_agenda_text">
-Innovation, growth and value creation are not random. Actually, there are patterns which dictate success and failure when launching new ventures. Whoever is able to discover the DNA of Innovation will have a place in the pantheon of giants alongside with Leonardo Da Vinci, Thomas A. Edison, Peter Drucker, Clayton Christensen, Steve Blank,... He will be the father of Innomics, the discipline about "how to win through innovation".
-</p>
-<a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png">
-</a>
-<hr style="margin-top:30px; margin-bottom:30px;">
-         </div>
-       
-       
-       
-       
-       
-       </div>
-       
-       
-       
-       
-       
-       
-       
-       </div>
-       
-       
-       
-       
-       
-       
-      
-    <div class="span_pastilla">
-      <div class="span_pastilla" style="float:right; min-width:296px; max-width:296px;">
-      
-            <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-left:0px; ">
-      <div id="backgroundpastilla">
-      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;">—MOEBIO'S VISION</h2>
-      <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    <h2 span class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHY</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">To empower leaders who can transform society and make a better future. 
-</p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-      <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> HOW</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">Training a new generation of entrepreneurs to solve widespread global needs in the healthcare system.</p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHAT</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">A 8 months full time Design Health course and short focused programs.</p>
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> FOR WHOM</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px; height:76px; margin-bottom:0px;">Graduates and PhDs in Health, Bio, Tech, Business and Design.</p>
-          
-          
+<hr>
+     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"><?= $items['data_ini'] ?></span></p>
+     <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"><?= $items['time_ini'] ?></span></p>
+     <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"><?= $items['venue'] ?></span></p>
+<p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"> Associació de Biotecnòlegs de Madrid
+<br></span></p>
+<p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"> Federació Espanyola de Biotenòlegs (FEBiotech) i Societat Espanyola de Neurociència
+</span></p>
+<p class="tipo_menu8">FROM:<span class="tipo_agenda_text"> Id quos esequia quae</span></p>
+<p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="#"> www.loremipsum.com</a></span></p>
+     <hr>
+     
+     <p class="tipo_news_text"><?= $items['content'] ?></p>
+<p class="tipo_search_results3"><img src="views/imatges/agenda/picto_agenda.png"> <span style="font-family:Arial, Helvetica, sans-serif; font-size:12px;">ADD TO MY CALENDAR</span></p>
+
 
 </div>
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46"></div>
+     
+   <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
+      <div id="backgroundpastilla_videos">
+      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="agenda.php">— MORE<br>
+UPCOMING EVENTS</a></h2>
+
+      <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
+    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 4 th. June 2013</p>
+     <p class="tipo_agenda_titol" style="padding-left:25px;">INFORMATIVE SESSION FOR PROSPECTIVE STUDENTS</p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">18:00 pm – 20:00 pm<br>
+VENUE: Edifici DHUB. Plaça de les Glòries, 37. 08018 Barcelona
+<br></p>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">Presentation by Jorge Juan Fernández, Moebio, Head of Academics.<br>
+At this information session, prospective students will have an opportunity to ask questions, learn about the curriculum, the academic program, the application process, financial aid. </p>
+     
+     <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
+    
+    
+    <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+     
+         
+   <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 6 th. June 2013</p>
+     <p class="tipo_agenda_titol" style="padding-left:25px;">BIZ BARCELONA.<br>BIODESIGN: TECHNOLOGY INNOVATION<br> AS A DISCIPLINE</p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">16:00 pm – 17:00 pm<br>
+VENUE: Montjuïc 
+Exhibition Centre 
+Av. Reina Maria Cristina, s/n
+08004 Barcelona
+<br></p>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">
+Keynote speaker: Dan E. Azagury, MD Stanford Biodesgn Program Fellow, Co-Founder Ciel Medical, Inc.<br>
+Introduction by Jorge Juan Fernández, Moebio, Head of Academics.
+</p>
+     
+      <a href="http://www.bizbarcelona.com "><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+ <p class="pull-right" style="margin-right:20px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
+
+ <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+ 
+
+ 
+ 
+</div>
+
+<img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46"> 
+
+</div>
+     
+     
+     </div>
+     
       
-      </div>
+      
+  </div><!-- container -->
       
       
-      
-      </div>
-      
-      
-      </div><!-- row -->
-      
-      </div><!-- container -->
-      
-      
-      
+     
      
 
     
@@ -466,14 +235,14 @@ Innovation, growth and value creation are not random. Actually, there are patter
 
 
 
-<div id="backgroundwantto" style="margin-top:40px;">
+<div id="backgroundwantto">
 
 <div class="container" style="margin-top:70px; margin-bottom:50px; ">
 
 <div id="push">
         
         
-         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+       <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -486,24 +255,10 @@ onmouseout="this.src='imatges/wantto.png'"></a>
 
 </div>
 
-
-<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
-<h3 id="myModalLabel" class="tipo_titol_modal" style="text-align:center;font-size:20px;">TUITION</h3>
-<p class="tipo_text_modal_alert2" style="font-size:20px;">The cost for the eight-months program, including the clinical immersion, the prototyping of the products and services created and the lectures and workshops from over 50 international experts exceeds the tuition. However, the organization has set a discounted price for the first edition to facilitate the access to the most interested and prepared people.
-We are also working with several entities to launch a scholarship program that will partially cover tuition. Applicants who have pre-registered to the course and people who have filled the form to stay informed about Moebio program news will be promptly notified when scholarships are available.</p>
-</div>
-</div>
-
-
-
-
-
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -877,31 +632,30 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
 </form>
 </div>
      
-
-     
        
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
 onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
 onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
 onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
 onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
+        
        
-      
+        
         
        
        
@@ -910,15 +664,16 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
-     <div id="footer">
+
+       <div id="footer">
       <div class="container">
         
         <div class="row" style="margin-bottom:85px; margin-top:85px">
         
       <div class="span_footer1" style="min-height:120px;">
-      <p span class="tipo_menu17"><a href="the_initiative.php">About Moebio</a></p>
+      <p span class="tipo_menu17"><a href="aboutmoebio.php">About Moebio</a></p>
       <p span class="tipo_menu17"><a href="courses.php">Courses</a></p>
       <p span class="tipo_menu17"><a href="thoughts.php">Thoughts</a></p>
       </div>
@@ -952,6 +707,7 @@ T. +34 933 10 33 30<br>
         
       </div>
     </div>
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
