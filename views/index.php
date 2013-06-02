@@ -416,44 +416,6 @@ onmouseout="this.src='views/imatges/apply_green.png'" style="margin-top:30px;"><
       </div>
 
 
-
-<!--<div id="backgroundupcoming" style="margin-top:40px;">
-<div class="container">
-      <div class="span6" style="float:none; margin-top:60px;  margin-left:0px;">
-       <h1 span class="tipo_menu10">— OTHER PROGRAMS</h1>
-       </div>
-       </div>
-      <div class="container">
-       <div class="row" style="margin-bottom:50px; margin-top:20px;">
-       
-       
-        <div class="span_focused1">
-        <h1 class="tipo_focused_titol" style="margin-top:45px;">Short Focused 
-Programs</h1>
-       
-       <p span class="tipo_menu6">Biocapsules are an intensive training program in key management tools to succeed in biotechnology and medical technology companies.</p>
-       
-        <a href="short_focused.php"><img src="views/imatges/focused/read_more_groc.png" onmouseover="this.src='imatges/focused/read_more_vermell.png'"
-onmouseout="this.src='imatges/focused/read_more_groc.png'" width="104px" height="auto" style="margin-top:20px;"></a></div>
-       
-       
-       
-       <div class="span_focused2 offset_focused">
-       
-         <img src="views/imatges/focused/focused_img.png" width="558" height="266" style="margin-top:40px;">
-         
-         </div>
-       
-       
-       
-       </div>
-      
-      </div>
-      </div>-->
-
-
-
-
       <div class="container">
      <div class="span6" style="float:none; margin-top:60px;  margin-left:0px;">
        <h1 span class="tipo_menu10">— HIGHLIGHTS</h1>
@@ -479,7 +441,6 @@ onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-to
        </div>
        
     
-       
        
        
        </div>
@@ -508,66 +469,10 @@ onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-to
 <img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
 </a>
        </div>
-   <? 
-   	if ($i % 3 == 0) echo '</div><div class="row-fluid">';
-   	$i++;
-   	endforeach; ?>
+   <?
+   	endforeach; ?></div>
 </div>
-       <!--
-
-       <div class="span3" style="border:none; margin-top:20px;">
-       <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-<p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-       </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-<p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-       </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-<p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-       </div>
--->
-       
-    
-       
-       
+  
        
        </div>
       
@@ -598,11 +503,10 @@ Anurag Mairal (Director - Global Exchange Programs)
 <img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
 </a>
        </div>
-    <? 
-   if ($i % 3 == 0) echo '</div><div class="row-fluid">';
-   $i++;
-   endforeach; ?>
-       <div class="span3" style="border:none; margin-top:20px;">
+    <?
+   endforeach; ?></div>
+       <!--
+<div class="span3" style="border:none; margin-top:20px;">
        
 <p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
 <p class="tipo_agenda_text">
@@ -661,6 +565,7 @@ Anurag Mairal (Director - Global Exchange Programs)
        
        </div>
       
+-->
       </div>
       
 
@@ -669,24 +574,33 @@ Anurag Mairal (Director - Global Exchange Programs)
        <div class="row-fluid" style="margin-bottom:50px; margin-top:50px;">
        <div class="span6">
        <h1 span class="tipo_menu10">— THOUGHTS</h1>
+       
+       
       <div class="row-fluid" style="margin-bottom:50px;">
+      <? $i=1; foreach($thoughts as $item): ?>
        <div class="span6" style="border:none; margin-top:20px;">
        
-<p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<img src="views/imatges/home/thoughts/img_video.jpg" width="224" height="123"> 
+<p class="tipo_agenda_titol"><?= $item['title'] ?></p>
+<? if ($item['video'] != ''): ?>
+<iframe width="100%" height="100%" src="http://www.youtube.com/embed/<?= $item['video'] ?>" frameborder="0" allowfullscreen></iframe>
+<? else: ?>
+<p class="tipo_agenda_text"><?= $item['description'] ?></p>
+<? endif; ?>
+
 <a href="#">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
 </a>
        </div>
+       <? if ($i % 2 == 0) echo '</div><div class="row-fluid">';
+   	$i++;
+       endforeach; ?></div>
+       
+       <!--
+
        <div class="span6" style="border:none; margin-top:20px;">
        
 <p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
+<p class="tipo_agenda_text"><?= $item['description'] ?></p>
 <a href="#">
 <img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
 </a>
@@ -722,6 +636,7 @@ Anurag Mairal (Director - Global Exchange Programs)
        
        
        </div>
+-->
        
        </div>
        
