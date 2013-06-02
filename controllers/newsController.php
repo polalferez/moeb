@@ -21,7 +21,8 @@ class newsController extends ControllerBase
 			require "models/newsModel.php"; 	
 			$items = new newsModel();
 			$data = Array(
-				  "items" => $items->getById($params["a"])
+				  "items" => $items->getById($params["a"]),
+ 				  "related" => $items->getRelated($params['a'],2)
 			      );	          
 			$this->view->show("newsDetail.php", $data);
 		}

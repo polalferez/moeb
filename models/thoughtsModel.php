@@ -20,6 +20,12 @@ class thoughtsModel extends ModelBase
 			$consulta->execute();
 			return $consulta->fetch();
 		}
+		public function getRelated($id,$limit){
+			$consulta = $this->db->prepare("SELECT * FROM thoughts WHERE id <> '".$id."' limit ".$limit);
+			$consulta->execute();
+			return $consulta->fetchAll();
+		}
+		
 		public function getByFIELD(){
 		
 		}

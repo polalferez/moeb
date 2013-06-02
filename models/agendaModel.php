@@ -20,6 +20,13 @@ class agendaModel extends ModelBase
 			$consulta->execute();
 			return $consulta->fetch();
 		}
+		
+		public function getRelated($id,$limit){
+			$consulta = $this->db->prepare("SELECT * FROM agenda WHERE id <> '".$id."' order by date_ini DESC limit ".$limit);
+			$consulta->execute();
+			return $consulta->fetchAll();
+		}
+		
 		public function getByFIELD(){
 		
 		}

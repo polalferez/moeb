@@ -21,7 +21,8 @@ class mediaController extends ControllerBase
 			require "models/mediaModel.php"; 	
 			$items = new mediaModel();
 			$data = Array(
-				  "items" => $items->getById($params["a"])
+				  "items" => $items->getById($params["a"]),
+  				  "related" => $items->getRelated($params['a'],2)
 			      );	          
 			$this->view->show("mediaDetail.php", $data);
 		}

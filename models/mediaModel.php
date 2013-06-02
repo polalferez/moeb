@@ -20,6 +20,13 @@ class mediaModel extends ModelBase
 			$consulta->execute();
 			return $consulta->fetch();
 		}
+		
+		public function getRelated($id,$limit){
+			$consulta = $this->db->prepare("SELECT * FROM media WHERE id <> '".$id."' limit ".$limit);
+			$consulta->execute();
+			return $consulta->fetchAll();
+		}
+		
 		public function getByFIELD(){
 		
 		}

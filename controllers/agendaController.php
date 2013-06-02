@@ -21,7 +21,8 @@ class agendaController extends ControllerBase
 			require "models/agendaModel.php"; 	
 			$items = new agendaModel();
 			$data = Array(
-				  "items" => $items->getById($params["a"])
+				  "items" => $items->getById($params["a"]),
+				  "related" => $items->getRelated($params['a'],2)
 			      );	          
 			$this->view->show("agendaDetail.php", $data);
 		}

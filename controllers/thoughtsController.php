@@ -21,7 +21,8 @@ class thoughtsController extends ControllerBase
 			require "models/thoughtsModel.php"; 	
 			$items = new thoughtsModel();
 			$data = Array(
-				  "items" => $items->getById($params["a"])
+				  "items" => $items->getById($params["a"]),
+  				  "related" => $items->getRelated($params['a'],2)
 			      );	          
 			$this->view->show("thoughtsDetail.php", $data);
 		}
