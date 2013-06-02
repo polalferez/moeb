@@ -11,7 +11,8 @@ class coursesController extends ControllerBase
 			require "models/coursesModel.php"; 	
 			$items = new coursesModel();			
 			$data = Array(
-				  "items" => $items->getAll()
+				  "items" => $items->getAll(),
+				  "short_focused" => $items->getAll()
 		          );         
 			$this->view->show("courses.php", $data);
 		}

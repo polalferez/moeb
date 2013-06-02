@@ -1,59 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Moebio | Accelerating Healthcare Entrepreneurship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We are a disruptive talent initiative where health, business, technology and design meet.">
-    <meta name="keywords" content="Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
-    <meta name="author" content="">
-    <meta name="robots" content="index, follow" />
-    
-     
- <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript">
-  TypekitConfig = {
-    kitId: 'tcn6swg.js',
-    scriptTimeout: 5000
-  };
-  (function() {
-    var h = document.getElementsByTagName('html')[0];
-    h.className += ' wf-loading';
-    var t = setTimeout(function() {
-      h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, '');
-      h.className += ' wf-inactive';
-    }, TypekitConfig.scriptTimeout);
-    var tk = document.createElement('script');
-    tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
-    tk.type = 'text/javascript';
-    tk.async = 'true';
-    tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      clearTimeout(t);
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(tk, s);
-  })();
-</script>
-   
-<!-- google analytics-->
-    <script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38950454-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script>
 
 
 
@@ -131,8 +75,8 @@ type= "text/css" rel="stylesheet">
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -167,7 +111,7 @@ type= "text/css" rel="stylesheet">
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -186,17 +130,17 @@ type= "text/css" rel="stylesheet">
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
       <h1 class="tipo_fil">Media<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
-onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='views/imatges/about/share_verd.png'"
+onmouseout="this.src='views/imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/media.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/media.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/media.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/media.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/media.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/media.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       </h1>
@@ -216,129 +160,42 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
           
     
    <div class="span9">
+
    
     <div class="row-fluid">
-   <div class="span4">
-   
-   <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-
-<p class="tipo_agenda_verd">
-<a href="press1.php">
-Delegates from 35 Catalan companies and institutions participate in BIO Chicago 2013
-</a>
-</p>
-<a href="press1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-<hr>
-   
-   
-   
-   </div>
-   <div class="span4">
-   
-   <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-
-<p class="tipo_agenda_verd">
-<a href="#">
-Montserrat Vendrell: "We must take advantage of the sector's global pushing to drive already existing projects and promote new initiatives"
-</a>
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-<hr>
-   
-   </div>
-   <div class="span4">
-   
-   <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-
-<p class="tipo_agenda_verd">
-<a href="#">
-More than twenty Catalan biotechnology and pharmaceutical companies participate in BIO-Europe 2012
-</a>
-
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-<hr>
-   
-   </div>
-   </div>
-   
-   <div class="row-fluid">
-   <div class="span4">
-   
-   <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
-
-<p class="tipo_agenda_verd">
-<a href="#">
-BIO-Europe Spring 2013 (7th Annual International Partnering Conference)
-</a>
-
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-<hr>
-   
-   </div>
-   <div class="span4">
     
-   <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
+    <? 
 
-<p class="tipo_agenda_verd">
-<a href="#">
-BIO-Europe Spring 2013 (7th Annual International Partnering Conference)
-</a>
-
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
-</a>
-<hr>
-   
-   
-   </div>
+    $i =1;
+    foreach($items as $item): ?>
    <div class="span4">
-   
+
    <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
-16th. April 2013
-</p>
+	<img width="20" height="auto" src="views/imatges/agenda/picto_agenda.png">
+	<?= $item['data'] ?><!-- 16th. April 2013 -->
+	</p>
 
-<p class="tipo_agenda_verd">
-<a href="#">
-BIO-Europe Spring 2013 (7th Annual International Partnering Conference)
-</a>
-
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
+	<p class="tipo_agenda_verd">
+	<a href="press1.php">
+	<?= $item['title'] ?>
+	</a>
+	</p>
+<a href="media/detail/<?= $item['id'] ?>/<?= generate_seo_link($item['title']) ?>">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
 </a>
 <hr>
    
+   
+   
    </div>
-   </div>
+   
+   <? 
+   if ($i % 3 == 0) echo '</div><div class="row-fluid">';
+   $i++;
+   endforeach; ?>
+</div>
   <hr>
-   <p class="pull-right"><img src="imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p> 
+   <p class="pull-right"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p> 
    </div>
    
    <div class="span3" style="margin-top:0px;">
@@ -351,7 +208,7 @@ BIO-Europe Spring 2013 (7th Annual International Partnering Conference)
    <div class="span_pastilladreta offset1" style="margin-top:0px; margin-left:0px; max-width:240px; ">
    
    <div id="backgroundpastilla" style="padding-top:20px; padding-bottom:20px;">
-       <p span class="tipo_menu8" style="padding-left:25px;">MEDIA CONTACT <img style="margin-left:10px;" src="imatges/picto_profile.png"></p>
+       <p span class="tipo_menu8" style="padding-left:25px;">MEDIA CONTACT <img style="margin-left:10px;" src="views/imatges/picto_profile.png"></p>
        <p class="tipo_menu4" style=" max-width:200px; padding-left:25px;">662 315 523<br>
 press@moebio.org</p>
       </div>
@@ -362,12 +219,12 @@ press@moebio.org</p>
 <div class="accordion-group">
 <div class="accordion-heading" style="padding:0px;">
 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-<p span class="tipo_menu8" style="padding-left:0px;"> 2012 <span class="pull-right"><img src="imatges/archive_arrow.png" width="9" height="7"></span></p>
+<p span class="tipo_menu8" style="padding-left:0px;"> 2012 <span class="pull-right"><img src="views/imatges/archive_arrow.png" width="9" height="7"></span></p>
 </a>
 </div>
 <div id="collapseOne" class="accordion-body collapse in">
 <div class="accordion-inner">
- <img src="imatges/about/linia_pastilla2.png" width="180" height="3" style="padding-left:0px;">
+ <img src="views/imatges/about/linia_pastilla2.png" width="180" height="3" style="padding-left:0px;">
           <p class="tipo_menu4" style=" max-width:200px; padding-left:0px;">
           January<br>
 February<br>
@@ -390,12 +247,12 @@ December<br>
 <div class="accordion-group">
 <div class="accordion-heading" style="padding:0px;">
 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-<p class="tipo_menu8" style="padding-left:0px;">2013 <span class="pull-right"><img src="imatges/archive_arrow.png" width="9" height="7"></span></p>
+<p class="tipo_menu8" style="padding-left:0px;">2013 <span class="pull-right"><img src="views/imatges/archive_arrow.png" width="9" height="7"></span></p>
 </a>
 </div>
 <div id="collapseTwo" class="accordion-body collapse">
 <div class="accordion-inner">
- <img src="imatges/about/linia_pastilla2.png" width="180" height="3" style="padding-left:0px;">
+ <img src="views/imatges/about/linia_pastilla2.png" width="180" height="3" style="padding-left:0px;">
           <p class="tipo_menu4" style=" max-width:200px; padding-left:0px;">
           January<br>
 February<br>
@@ -420,7 +277,7 @@ December<br>
  
 
 </div>
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46" style="margin-top:-27px;"></div>
+      <img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46" style="margin-top:-27px;"></div>
       
       </div>
    
@@ -457,9 +314,9 @@ December<br>
 <div id="push">
         
         
-         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
-onmouseover="this.src='imatges/wantto_verd.png'"
-onmouseout="this.src='imatges/wantto.png'"></a> 
+         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
+onmouseover="this.src='views/imatges/wantto_verd.png'"
+onmouseout="this.src='views/imatges/wantto.png'"></a> 
       
  
       
@@ -473,7 +330,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
 
 <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal" style="text-align:center;font-size:20px;">TUITION</h3>
 <p class="tipo_text_modal_alert2" style="font-size:20px;">The cost for the eight-months program, including the clinical immersion, the prototyping of the products and services created and the lectures and workshops from over 50 international experts exceeds the tuition. However, the organization has set a discounted price for the first edition to facilitate the access to the most interested and prepared people.
 We are also working with several entities to launch a scholarship program that will partially cover tuition. Applicants who have pre-registered to the course and people who have filled the form to stay informed about Moebio program news will be promptly notified when scholarships are available.</p>
@@ -487,7 +344,7 @@ We are also working with several entities to launch a scholarship program that w
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -861,7 +718,7 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
@@ -874,16 +731,16 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
-onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
-onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
+onmouseover="this.src='views/imatges/socialpictos/linkedin2.png'"
+onmouseout="this.src='views/imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
-onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='views/imatges/socialpictos/facebook2.png'"
+onmouseout="this.src='views/imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
-onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='views/imatges/socialpictos/twiteer2.png'"
+onmouseout="this.src='views/imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
        
       
         
@@ -894,7 +751,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
      <div id="footer">
       <div class="container">

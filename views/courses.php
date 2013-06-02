@@ -53,8 +53,8 @@
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -89,7 +89,7 @@
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -110,15 +110,15 @@
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
       <h1 class="tipo_fil">Courses<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-   <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a>
+   <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/courses.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/courses.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/courses.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/courses.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/courses.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/courses.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       
@@ -142,15 +142,15 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
        <h1 span class="tipo_menu10">FULL TIME PROGRAM</h1>
        </div>
        <div class="span11">
-       <? foreach ($items as $item): ?>
-       <h1 span class="tipo_menu7" ><?= $item['title'] ?></h1>
+
+       <h1 span class="tipo_menu7" ><?= $items[0]['title'] ?></h1>
        
-       <h2 span class="tipo_menu5"><?= $item['description'] ?></h2>
-       <p span class="tipo_menu6"><?= $item['content'] ?></p>
-       <p><a href="d-health-barcelona.php"><img src="imatges/learn_red.png" onmouseover="this.src='imatges/learn_green.png'"
-onmouseout="this.src='imatges/learn_red.png'" style="margin-top:30px;"></a><a href="admissions.php"><img src="imatges/apply_green.png" onmouseover="this.src='imatges/apply_red.png'"
-onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px; margin-left:20px;"></a></p>
-		<? endforeach; ?>
+       <h2 span class="tipo_menu5"><?= $items[0]['description'] ?></h2>
+       <p span class="tipo_menu6"><?= $items[0]['content'] ?></p>
+       <p><a href="d-health-barcelona.php"><img src="views/imatges/learn_red.png" onmouseover="this.src='imatges/learn_green.png'"
+onmouseout="this.src='views/imatges/learn_red.png'" style="margin-top:30px;"></a><a href="admissions.php"><img src="views/imatges/apply_green.png" onmouseover="this.src='views/imatges/apply_red.png'"
+onmouseout="this.src='views/imatges/apply_green.png'" style="margin-top:30px; margin-left:20px;"></a></p>
+
        </div>
        
        
@@ -163,50 +163,50 @@ onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px; margin-l
        
       
      <div class="pull-left">
-     <img src="imatges/admissions/info_picto.png" width="19" height="22" style="margin-right:10px; padding-left:25px; padding-top:30px;">
+     <img src="views/imatges/admissions/info_picto.png" width="19" height="22" style="margin-right:10px; padding-left:25px; padding-top:30px;">
      </div>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:30px;">INFORMATION SESSION <span class="tipo_menu9">4 June 2013</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:30px;">INFORMATION SESSION <span class="tipo_menu9"><?= $items[0]['date_ini'] ?></span></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
        <div class="pull-left">
-     <img src="imatges/picto_calendari.png" width="19" height="22" style="margin-right:10px; padding-left:25px;">
+     <img src="views/imatges/picto_calendari.png" width="19" height="22" style="margin-right:10px; padding-left:25px;">
      </div>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;">8 MONTH <span class="tipo_menu9">Full Time Program</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;"><?= $items[0]['duration'] ?> <span class="tipo_menu9">Full Time Program</span></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
        <div class="pull-left">
-       <img src="imatges/picto_rellotge.png" style="margin-right:10px;  padding-left:25px;">
+       <img src="views/imatges/picto_rellotge.png" style="margin-right:10px;  padding-left:25px;">
        </div>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;">STARTING DATE: <span class="tipo_menu9">Mon, 16 September 2013</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px;">STARTING DATE: <span class="tipo_menu9"><?= $items[0]['date_ini'] ?> <!-- Mon, 16 September 2013 --></span></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
        <div class="pull-left">
-       <img src="imatges/picto_profile.png" style="margin-right:10px;  padding-left:25px; margin-bottom:40px;">
+       <img src="views/imatges/picto_profile.png" style="margin-right:10px;  padding-left:25px; margin-bottom:40px;">
        </div>
        
-       <p span class="tipo_menu8"  style=" max-width:240px; padding-left:25px;">PROFILES: <span class="tipo_menu9">Graduates and PhDs in Health, Bio, Tech, Business and Design.</span></p>
+       <p span class="tipo_menu8"  style=" max-width:240px; padding-left:25px;">PROFILES: <span class="tipo_menu9"><?= $items[0]['profile'] ?></span></p>
       
-      <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+      <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
       
       
        <div class="pull-left">
-     <img src="imatges/admissions/locations_picto.png" width="19" height="22" style="margin-right:10px; padding-left:25px; padding-top:0px;">
+     <img src="views/imatges/admissions/locations_picto.png" width="19" height="22" style="margin-right:10px; padding-left:25px; padding-top:0px;">
      </div>
        <p span class="tipo_menu8" style=" max-width:240px;padding-left:55px; padding-right:20px; padding-top:0px;">LOCATIONS: <span class="tipo_menu9">Hospital Clinic/Hospital Sant Joan de Déu/Institute Guttmann and other to be confirmed.and Design.</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
        
        <div class="pull-left">
-     <img src="imatges/admissions/leng_picto.png" style="margin-right:10px; padding-left:25px; padding-top:0px;">
+     <img src="views/imatges/admissions/leng_picto.png" style="margin-right:10px; padding-left:25px; padding-top:0px;">
      </div>
        <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:0px;">LANGUAGES: <span class="tipo_menu9">English/Catalan/Spanish</span></p>
-       <p><img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
+       <p><img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;"></p>
        
        
        <div class="pull-left">
-     <img src="imatges/admissions/tuition_picto.png" style="margin-right:10px; padding-left:25px; padding-top:0px;">
+     <img src="views/imatges/admissions/tuition_picto.png" style="margin-right:10px; padding-left:25px; padding-top:0px;">
      </div>
-       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:0px;">TUITION: <span class="tipo_menu9">12.500€    <a href="#myModal2" role="button" data-toggle="modal">+ info</a></span></p>
+       <p span class="tipo_menu8" style=" max-width:240px; padding-left:25px; padding-top:0px;">TUITION: <span class="tipo_menu9"><?= $items[0]['price'] ?>€    <a href="#myModal2" role="button" data-toggle="modal">+ info</a></span></p>
       
        
       
@@ -217,22 +217,23 @@ onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px; margin-l
       
       
 </div>
-      
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46" style="margin-top:-10px;">
+
+      <img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46" style="margin-top:-10px;">
       
       
       
       </div>
+      
        </div>
        
        
        </div>
       
-    
+
       
       </div><!-- container -->
       
-      
+
      
  <div id="backgroundupcoming" style="margin-top:40px;">
       <div class="container">
@@ -245,14 +246,14 @@ Programs</h1>
        
        <p span class="tipo_menu6">Biocapsules are an intensive training program in key management tools to succeed in biotechnology and medical technology companies.</p>
        
-        <a href="short_focused.php"><img src="imatges/focused/read_more_groc.png" onmouseover="this.src='imatges/focused/read_more_vermell.png'"
+        <a href="short_focused.php"><img src="views/imatges/focused/read_more_groc.png" onmouseover="this.src='imatges/focused/read_more_vermell.png'"
 onmouseout="this.src='imatges/focused/read_more_groc.png'" width="104px" height="auto" style="margin-top:20px;"></a></div>
        
        
        
        <div class="span_focused2 offset_focused">
        
-         <img src="imatges/focused/focused_img.png" width="558" height="266" style="margin-top:40px;">
+         <img src="views/imatges/focused/focused_img.png" width="558" height="266" style="margin-top:40px;">
          
          </div>
        
@@ -278,7 +279,7 @@ onmouseout="this.src='imatges/focused/read_more_groc.png'" width="104px" height=
 <div id="push">
         
         
-        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -295,7 +296,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
 
 <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal" style="text-align:center;font-size:20px;">TUITION</h3>
 <p class="tipo_text_modal_alert2" style="font-size:20px;">The cost for the eight-months program, including the clinical immersion, the prototyping of the products and services created and the lectures and workshops from over 50 international experts exceeds the tuition. However, the organization has set a discounted price for the first edition to facilitate the access to the most interested and prepared people.
 We are also working with several entities to launch a scholarship program that will partially cover tuition. Applicants who have pre-registered to the course and people who have filled the form to stay informed about Moebio program news will be promptly notified when scholarships are available.</p>
@@ -307,7 +308,7 @@ We are also working with several entities to launch a scholarship program that w
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -681,7 +682,7 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
@@ -694,15 +695,15 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-        <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
+        <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
 onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
 onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
 onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
 onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
         
        
@@ -715,7 +716,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
 
       <div id="footer">
