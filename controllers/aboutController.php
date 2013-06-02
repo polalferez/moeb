@@ -19,11 +19,17 @@ class aboutController extends ControllerBase
 			$params = gett();
 			require "models/about_pagesModel.php"; 	
 			require "models/about_modulsModel.php"; 
+			require "models/advisory_boardModel.php"; 
+			require "models/crossconceptsModel.php"; 			
+			$advisory = new advisory_boardModel();
+			$cross = new crossconceptsModel();
 			$about = new about_modulsModel();
 			$items = new about_pagesModel();			
 			$data = Array(
 				  "items" => $items->getById($params["a"]),
-				  "about" => $about->getAll()
+				  "about" => $about->getAll(),
+				  "cross" => $cross->getAll(),
+				  "board" => $advisory->getAll()
 
 		          );         
 			$this->view->show("about.php", $data);
