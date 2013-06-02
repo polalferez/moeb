@@ -1,82 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Moebio | Accelerating Healthcare Entrepreneurship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We are a disruptive talent initiative where health, business, technology and design meet.">
-    <meta name="keywords" content="Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
-    <meta name="author" content="">
-    <meta name="robots" content="index, follow" />
-    
-     
- <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript">
-  TypekitConfig = {
-    kitId: 'tcn6swg.js',
-    scriptTimeout: 5000
-  };
-  (function() {
-    var h = document.getElementsByTagName('html')[0];
-    h.className += ' wf-loading';
-    var t = setTimeout(function() {
-      h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, '');
-      h.className += ' wf-inactive';
-    }, TypekitConfig.scriptTimeout);
-    var tk = document.createElement('script');
-    tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
-    tk.type = 'text/javascript';
-    tk.async = 'true';
-    tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      clearTimeout(t);
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(tk, s);
-  })();
-</script>
-   
-<!-- google analytics-->
-    <script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38950454-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script>
-
-
-
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="moebio.css" rel="stylesheet" type="text/css"/>
-    <link media="only screen and (max-device-width: 480px)" href="iphone.css" 
-type= "text/css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]> 
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-   [endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-   
-                                   <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
-                                   
-    <style>
+                  
+                                    
+   <style>
   
   
 	
@@ -112,16 +36,15 @@ type= "text/css" rel="stylesheet">
 	
 	 }
 
-  </style>                                  
+  </style>                      
    <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-<![endif]--> 
-    
+<![endif]-->  
   </head>
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top"><!--header-->
+ <div class="navbar navbar-inverse navbar-fixed-top"><!--header-->
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -182,11 +105,10 @@ type= "text/css" rel="stylesheet">
       </div>
     </div><!--header-->
 
-
     
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
-      <h1 class="tipo_fil">Agenda > Design Health Barcelona Introduction Event <div class="dropdown pull-right">
+      <h1 class="tipo_fil">News  >  Hospital robot could reduce human errors and save lives<div class="dropdown pull-right">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
@@ -194,10 +116,10 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
     <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
     
     <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
-    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/event1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/event1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/event1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/news1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/news1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/news1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       
@@ -208,95 +130,55 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
       </h1>
       <div class="span6" style="float:none; margin-left:0px;">
-      <h1 class="tipo_titol1">— AGENDA</h1>
+      <h1 class="tipo_titol1">— NEWS</h1>
       </div>
       <h1><hr></h1>
       
      <div class="row" style="margin-bottom:50px;">
      <div class="span_text_about">
-     <h1 class="tipo_titol_thoughts_video">MOEBIO's COMING-OUT </h1>
-     <p class="tipo_menu_bio_titol" style="color: #6DC5A0;"><strong>MOEBIO, the disruptive talent development initiative to accelerate healthcare entrepreneurship, comes-out at former Astoria theatre, Barcelona.</strong></p>
-     <p>
-     <img src="imatges/share_gris.png" width="39" height="9" style="margin-right:10px;"> <img width="16" height="16" src="imatges/about/advisory/picto_in.png">
-<img width="16" height="16" src="imatges/about/advisory/picto_f.png">
-<img width="16" height="16" src="imatges/about/advisory/picto_t.png">
-</p>
+     <p class="tipo_search_results3"><img src="imatges/agenda/picto_agenda.png"> <strong>Date:</strong><?= $items['data'] ?></p>
+     <h1 class="tipo_titol_thoughts_video"><?= $items['title'] ?></h1>
+     <p class="tipo_news_titol2" style="margin-bottom:25px;"><?= $items['description'] ?></p>
      
+      <div id="video_image">
+     <img src="file/img/<?= $items['foto'] ?>" width="646" height="354">
+     </div>
+     <div id="video_play">
+     <div class="video-container">
+          <iframe width="646" height="363" src="<?= $items['video'] ?>" frameborder="0" allowfullscreen></iframe>
+         </div>
+     </div>
+     <p class="tipo_news_text" style="margin-top:20px;"><?= $items['content'] ?></p>
 <hr>
-     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"> Tuesday, April 16, 2013</span></p>
-     <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"> 7:00 pm - 9:00 pm</span></p>
-     <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"> CCCB, Centre de Cultura Contemporània de Barcelona,<br> 
-Sala Teatre, C/Montalegre, 5, Barcelona</span></p>
-<p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"> Associació de Biotecnòlegs de Madrid
-<br></span></p>
-<p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"> Federació Espanyola de Biotenòlegs (FEBiotech) i Societat Espanyola de Neurociència
-</span></p>
-<p class="tipo_menu8">FROM:<span class="tipo_agenda_text"> Id quos esequia quae</span></p>
-<p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="#"> www.loremipsum.com</a></span></p>
-     <hr>
+<p class="tipo_search_results3"><img src="imatges/source.png"> <strong>Source:</strong><?= $items['autor'] ?></p>
+ <hr>    
+     </div>
      
-     <p class="tipo_news_text">
-Adiam re nit mos ne dolupti sinullitia aut maxim excearuptat quidero voluptatque est, seque sitiori busanduciet ommo comnihilique velentu rectoristios rem. Nam qui ad molore cone provita ssunt.<br><br>
-Et hari abor modit, quo tenimincil idundandis inciendis ducimus, sum que et autem ipsae suntincti doluptum num fugia nus, tem aliquianti ommo inim vel molupta quaectentur adipica tquam, quid maiore lit ventiisquo volupieturit lacitio. Ovid ut rem. Nequamentem iscim quis am res alicipsam, ut dolore niscitem autem facit qu.</p>
-<p class="tipo_search_results3"><img src="imatges/agenda/picto_agenda.png"> <span style="font-family:Arial, Helvetica, sans-serif; font-size:12px;">ADD TO MY CALENDAR</span></p>
-
-
-</div>
-     
-   <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
-      <div id="backgroundpastilla_videos">
-      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="agenda.php">— MORE<br>
-UPCOMING EVENTS</a></h2>
+      <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
+      <div id="backgroundpastilla">
+      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="news.php">— MORE NEWS</a></h2>
 
       <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="imatges/agenda/picto_agenda.png" width="20" height="auto"> 4 th. June 2013</p>
-     <p class="tipo_agenda_titol" style="padding-left:25px;">INFORMATIVE SESSION FOR PROSPECTIVE STUDENTS</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">18:00 pm – 20:00 pm<br>
-VENUE: Edifici DHUB. Plaça de les Glòries, 37. 08018 Barcelona
-<br></p>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
-<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">Presentation by Jorge Juan Fernández, Moebio, Head of Academics.<br>
-At this information session, prospective students will have an opportunity to ask questions, learn about the curriculum, the academic program, the application process, financial aid. </p>
-     
-     <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
     
-    
-    <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+     <p class="tipo_agenda_titol" style="padding-left:25px; padding-right:25px;">DEVICE TESTS DRUGS ON A TUMOUR THAT'S STILL IN THE BODY</p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">The technology would allow oncologists to test potentially harmful compounds in tiny amounts before giving patients a full dose.</p>
      
+      <a href="news2.php"><img src="imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a>
          
-   <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="imatges/agenda/picto_agenda.png" width="20" height="auto"> 6 th. June 2013</p>
-     <p class="tipo_agenda_titol" style="padding-left:25px;">BIZ BARCELONA.<br>BIODESIGN: TECHNOLOGY INNOVATION<br> AS A DISCIPLINE</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">16:00 pm – 17:00 pm<br>
-VENUE: Montjuïc 
-Exhibition Centre 
-Av. Reina Maria Cristina, s/n
-08004 Barcelona
-<br></p>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
-<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">
-Keynote speaker: Dan E. Azagury, MD Stanford Biodesgn Program Fellow, Co-Founder Ciel Medical, Inc.<br>
-Introduction by Jorge Juan Fernández, Moebio, Head of Academics.
-</p>
-     
-      <a href="http://www.bizbarcelona.com "><img src="imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
- <p class="pull-right" style="margin-right:20px;"><img src="imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
+          
 
- <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
- 
-
- 
- 
 </div>
-
-<img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46"> 
-
+ 
+      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
+      
+    
 </div>
      
      
      </div>
+     
+     
      
       
       
@@ -315,14 +197,14 @@ onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
 
 
 
-<div id="backgroundwantto">
+<div id="backgroundwantto" style="margin-top:40px;">
 
 <div class="container" style="margin-top:70px; margin-bottom:50px; ">
 
 <div id="push">
         
         
-       <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -718,6 +600,8 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 </form>
 </div>
+     
+
      
        
 <div id="push" style="margin-top:70px; margin-bottom:50px;">

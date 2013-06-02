@@ -76,8 +76,7 @@ type= "text/css" rel="stylesheet">
    
                                    <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
                                    
-                                    
-   <style>
+    <style>
   
   
 	
@@ -113,15 +112,16 @@ type= "text/css" rel="stylesheet">
 	
 	 }
 
-  </style>                      
+  </style>                                  
    <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-<![endif]-->  
+<![endif]--> 
+    
   </head>
 
   <body>
 
- <div class="navbar navbar-inverse navbar-fixed-top"><!--header-->
+    <div class="navbar navbar-inverse navbar-fixed-top"><!--header-->
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -130,8 +130,8 @@ type= "text/css" rel="stylesheet">
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -166,7 +166,7 @@ type= "text/css" rel="stylesheet">
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -182,21 +182,22 @@ type= "text/css" rel="stylesheet">
       </div>
     </div><!--header-->
 
+
     
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
-      <h1 class="tipo_fil">News  >  Hospital robot could reduce human errors and save lives<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+      <h1 class="tipo_fil">Agenda > Design Health Barcelona Introduction Event <div class="dropdown pull-right">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
-   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/news1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/news1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/news1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/event1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/event1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/event1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       
@@ -207,63 +208,95 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
       </h1>
       <div class="span6" style="float:none; margin-left:0px;">
-      <h1 class="tipo_titol1">— NEWS</h1>
+      <h1 class="tipo_titol1">— AGENDA</h1>
       </div>
       <h1><hr></h1>
       
      <div class="row" style="margin-bottom:50px;">
      <div class="span_text_about">
-     <p class="tipo_search_results3"><img src="imatges/agenda/picto_agenda.png"> <strong>Date:</strong> 3th December 2012</p>
-     <h1 class="tipo_titol_thoughts_video">HOSPITAL ROBOT COULD REDUCE HUMAN ERRORS & SAVE LIVES</h1>
-     <p class="tipo_news_titol2" style="margin-bottom:25px;">The robot will sort scalpels, sterilize tools, and prepare operating rooms for surgery.</p>
-     
-      <div id="video_image">
-     <img src="imatges/news/news1_big.png" width="646" height="354">
-     </div>
-     <div id="video_play">
-     <div class="video-container">
-          <iframe width="646" height="363" src="http://www.youtube.com/embed/ftm1xLevcfk?rel=0" frameborder="0" allowfullscreen></iframe>
-         </div>
-     </div>
-     <p class="tipo_news_text" style="margin-top:20px;"><strong>Antoni Bassas</strong><br><br>The Institute of Medicine estimates that tens of thousands of Americans die needlessly every year from avoidable medical errors, including infections acquired during surgery. GE Global Research is developing an intelligent hospital robot that can sort, sterilize, and prep surgical tools automatically, minimizing mistakes and freeing skilled hospital personnel for other less-tedious jobs. The system could save lives, not to mention costs.<br><br>
-
-Preparing instruments for surgery it is critical to any operation. Errors can lead to delays during surgery and potential patient harm, and improper sterilization can cost lives or huge amounts of money in unnecessary patient recovery time caused by infections that could have been prevented. Usually, highly-trained surgical staff are in charge of inspecting, cleaning, and counting surgical tools by hand, a time-consuming chore susceptible to human error.<br><br>
-
-The robot will do all of this faster, more efficiently, and more thoroughly than humans using different technologies some of which are mature and others still developing. Scalpels, clamps and other surgical tools will bear a unique ID built with RFID and barcodes that the intelligent robotic system could recognize. The biggest challenge will be to develop computer vision to make the robot "intelligent enough" to be able to manoeuvre and manipulate these surgical implements and deliver them in the right place, at the right time, and in the right order.<br><br>
-
-A system like this is long overdue. As part of the two-year $2.5 million project, the designers will evaluate the system at a Veterans Affairs hospital.<br><br>
-
+     <h1 class="tipo_titol_thoughts_video">MOEBIO's COMING-OUT </h1>
+     <p class="tipo_menu_bio_titol" style="color: #6DC5A0;"><strong>MOEBIO, the disruptive talent development initiative to accelerate healthcare entrepreneurship, comes-out at former Astoria theatre, Barcelona.</strong></p>
+     <p>
+     <img src="views/imatges/share_gris.png" width="39" height="9" style="margin-right:10px;"> <img width="16" height="16" src="imatges/about/advisory/picto_in.png">
+<img width="16" height="16" src="imatges/about/advisory/picto_f.png">
+<img width="16" height="16" src="imatges/about/advisory/picto_t.png">
 </p>
+     
 <hr>
-<p class="tipo_search_results3"><img src="imatges/source.png"> <strong>Source:</strong> txchnologist.com</p>
- <hr>    
-     </div>
+     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"> Tuesday, April 16, 2013</span></p>
+     <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"> 7:00 pm - 9:00 pm</span></p>
+     <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"> CCCB, Centre de Cultura Contemporània de Barcelona,<br> 
+Sala Teatre, C/Montalegre, 5, Barcelona</span></p>
+<p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"> Associació de Biotecnòlegs de Madrid
+<br></span></p>
+<p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"> Federació Espanyola de Biotenòlegs (FEBiotech) i Societat Espanyola de Neurociència
+</span></p>
+<p class="tipo_menu8">FROM:<span class="tipo_agenda_text"> Id quos esequia quae</span></p>
+<p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="#"> www.loremipsum.com</a></span></p>
+     <hr>
      
-      <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
-      <div id="backgroundpastilla">
-      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="news.php">— MORE NEWS</a></h2>
+     <p class="tipo_news_text">
+Adiam re nit mos ne dolupti sinullitia aut maxim excearuptat quidero voluptatque est, seque sitiori busanduciet ommo comnihilique velentu rectoristios rem. Nam qui ad molore cone provita ssunt.<br><br>
+Et hari abor modit, quo tenimincil idundandis inciendis ducimus, sum que et autem ipsae suntincti doluptum num fugia nus, tem aliquianti ommo inim vel molupta quaectentur adipica tquam, quid maiore lit ventiisquo volupieturit lacitio. Ovid ut rem. Nequamentem iscim quis am res alicipsam, ut dolore niscitem autem facit qu.</p>
+<p class="tipo_search_results3"><img src="views/imatges/agenda/picto_agenda.png"> <span style="font-family:Arial, Helvetica, sans-serif; font-size:12px;">ADD TO MY CALENDAR</span></p>
 
-      <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    
-     <p class="tipo_agenda_titol" style="padding-left:25px; padding-right:25px;">DEVICE TESTS DRUGS ON A TUMOUR THAT'S STILL IN THE BODY</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">The technology would allow oncologists to test potentially harmful compounds in tiny amounts before giving patients a full dose.</p>
+
+</div>
      
-      <a href="news2.php"><img src="imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a>
+   <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
+      <div id="backgroundpastilla_videos">
+      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="agenda.php">— MORE<br>
+UPCOMING EVENTS</a></h2>
+
+      <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
+    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 4 th. June 2013</p>
+     <p class="tipo_agenda_titol" style="padding-left:25px;">INFORMATIVE SESSION FOR PROSPECTIVE STUDENTS</p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">18:00 pm – 20:00 pm<br>
+VENUE: Edifici DHUB. Plaça de les Glòries, 37. 08018 Barcelona
+<br></p>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">Presentation by Jorge Juan Fernández, Moebio, Head of Academics.<br>
+At this information session, prospective students will have an opportunity to ask questions, learn about the curriculum, the academic program, the application process, financial aid. </p>
+     
+     <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
+    
+    
+    <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+     
          
-          
+   <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 6 th. June 2013</p>
+     <p class="tipo_agenda_titol" style="padding-left:25px;">BIZ BARCELONA.<br>BIODESIGN: TECHNOLOGY INNOVATION<br> AS A DISCIPLINE</p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">16:00 pm – 17:00 pm<br>
+VENUE: Montjuïc 
+Exhibition Centre 
+Av. Reina Maria Cristina, s/n
+08004 Barcelona
+<br></p>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">
+Keynote speaker: Dan E. Azagury, MD Stanford Biodesgn Program Fellow, Co-Founder Ciel Medical, Inc.<br>
+Introduction by Jorge Juan Fernández, Moebio, Head of Academics.
+</p>
+     
+      <a href="http://www.bizbarcelona.com "><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
+<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+ <p class="pull-right" style="margin-right:20px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
 
-</div>
+ <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
  
-      <img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
-      
-    
+
+ 
+ 
+</div>
+
+<img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46"> 
+
 </div>
      
      
      </div>
-     
-     
      
       
       
@@ -282,14 +315,14 @@ onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a>
 
 
 
-<div id="backgroundwantto" style="margin-top:40px;">
+<div id="backgroundwantto">
 
 <div class="container" style="margin-top:70px; margin-bottom:50px; ">
 
 <div id="push">
         
         
-        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+       <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -305,7 +338,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -679,28 +712,26 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
 </form>
 </div>
      
-
-     
        
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
 onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
 onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
 onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
 onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
         
        
@@ -713,7 +744,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
 
        <div id="footer">

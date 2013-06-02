@@ -13,7 +13,7 @@ class newsController extends ControllerBase
 			$data = Array(
 				  "items" => $items->getAll()
 		          );         
-			$this->view->show("news.php", $data);
+			$this->view->show("news_detail.php", $data);
 		}
 		
 		public function detail(){
