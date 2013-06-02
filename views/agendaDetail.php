@@ -169,22 +169,23 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
 UPCOMING EVENTS</a></h2>
 
       <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 4 th. June 2013</p>
-     <p class="tipo_agenda_titol" style="padding-left:25px;">INFORMATIVE SESSION FOR PROSPECTIVE STUDENTS</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">18:00 pm – 20:00 pm<br>
-VENUE: Edifici DHUB. Plaça de les Glòries, 37. 08018 Barcelona
+    <? foreach($related as $item): ?>
+    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"><?= $item['date_ini'] ?></p>
+     <p class="tipo_agenda_titol" style="padding-left:25px;"><?= $item['title'] ?></p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;"><?= $item['time_ini'] ?><br>
+VENUE:<?= $item['venue'] ?>
 <br></p>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
-<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">Presentation by Jorge Juan Fernández, Moebio, Head of Academics.<br>
-At this information session, prospective students will have an opportunity to ask questions, learn about the curriculum, the academic program, the application process, financial aid. </p>
+<img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
+<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;"><?= $item['description'] ?></p>
      
-     <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
+     <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a><br><br>
     
     
-    <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
-     
-         
+    <img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
+    <? endforeach; ?> 
+   <!--
+      
    <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 6 th. June 2013</p>
      <p class="tipo_agenda_titol" style="padding-left:25px;">BIZ BARCELONA.<br>BIODESIGN: TECHNOLOGY INNOVATION<br> AS A DISCIPLINE</p>
       <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">16:00 pm – 17:00 pm<br>
@@ -193,18 +194,21 @@ Exhibition Centre
 Av. Reina Maria Cristina, s/n
 08004 Barcelona
 <br></p>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+<img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
 <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">
 Keynote speaker: Dan E. Azagury, MD Stanford Biodesgn Program Fellow, Co-Founder Ciel Medical, Inc.<br>
 Introduction by Jorge Juan Fernández, Moebio, Head of Academics.
 </p>
      
-      <a href="http://www.bizbarcelona.com "><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='imatges/agenda/moreinfo_verd.png'"></a><br><br>
-<img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
- <p class="pull-right" style="margin-right:20px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='imatges/thoughts/point_red.png'" onmouseout="this.src='imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
+      <a href="http://www.bizbarcelona.com "><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'"
+onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a><br><br>
+<img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
+ 
+-->
+ 
+ <p class="pull-right" style="margin-right:20px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
 
- <img width="240" height="3" style="padding-left:25px;" src="imatges/about/linia_pastilla2.png">
+ <img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
  
 
  
