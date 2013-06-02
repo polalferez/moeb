@@ -174,13 +174,13 @@ onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25p
        
        <?
        if ($_GET['i'] == 'cross-concepts'):
-       		include "cross_concepts.php";
+       		include "crossconcepts.php";
        endif; ?>
        
        
-       <?
+        <?
        if ($_GET['i'] == 'advisory-board'): 
-       		include "cross_concepts.php";       
+       		include "advisory_board.php";       
         endif; ?>
        
        
