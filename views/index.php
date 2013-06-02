@@ -326,7 +326,7 @@ onmouseout="this.src='imatges/knowmoreverd.png'" style="margin-top:10px;"></a></
       <div class="container">
        <div class="container">
        
-      <img class="pull-right" src="imatges/label1.png" width="48" height="104" style="margin-top:-10px;">
+      <img class="pull-right" src="views/imatges/label1.png" width="48" height="104" style="margin-top:-10px;">
       <div class="span6" style="float:none; margin-top:30px;  margin-left:0px;">
        <h1 span class="tipo_menu10">— HIGHLIGHT PROGRAM</h1>
        
@@ -339,8 +339,8 @@ onmouseout="this.src='imatges/knowmoreverd.png'" style="margin-top:10px;"></a></
        <p class="tipo_menu5" style="margin-top:30px; margin-bottom:30px;">A Higher Education Program inspired in the 
 prestigious Stanford University's Biodesign Fellowship.</p>
        <p span class="tipo_menu6">Design Health Barcelona seeks change-makers. It takes the initiative to solve real, global, major challenges in the healthcare and medical technologies industries starting up new, innovative business models, products and services. It guides participants beyond their boundaries. It teaches them to think outside the box to identify new opportunities and develop the advancing technologies that will set the future of medical practice and will positively impact people' lives.</p>
-       <p><a href="d-health-barcelona.php"><img src="views/imatges/learn_red.png" onmouseover="this.src='imatges/learn_green.png'"
-onmouseout="this.src='imatges/learn_red.png'" style="margin-top:30px;"></a></p>
+       <p><a href="d-health-barcelona.php"><img src="views/imatges/learn_red.png" onmouseover="this.src='views/imatges/learn_green.png'"
+onmouseout="this.src='views/imatges/learn_red.png'" style="margin-top:30px;"></a></p>
        </div>
        
        <div class="span3" style="margin-top:25px;">
@@ -368,8 +368,8 @@ onmouseout="this.src='imatges/learn_red.png'" style="margin-top:30px;"></a></p>
       
        <p span class="tipo_menu8">PROFILES: <span class="tipo_menu9">Graduates and PhDs in Health, Bio, Tech, Business and Design.</span></p>
       
-      <a href="admissions.php"><img src="views/imatges/apply_green.png" onmouseover="this.src='imatges/apply_red.png'"
-onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px;"></a>
+      <a href="admissions.php"><img src="views/imatges/apply_green.png" onmouseover="this.src='views/imatges/apply_red.png'"
+onmouseout="this.src='views/imatges/apply_green.png'" style="margin-top:30px;"></a>
        
        </div>
        
@@ -389,9 +389,9 @@ onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px;"></a>
        <div class="row-fluid" style="margin-bottom:50px;">
        <div class="span6">
       <div class="label pull-right">
-       <img style="margin-bottom:-30px;" src="imatges/home/programs/label_mostassa.png" width="43" height="92">
+       <img style="margin-bottom:-30px;" src="views/imatges/home/programs/label_mostassa.png" width="43" height="92">
        </div>
-       <img  style="margin-top:-55px;" src="imatges/home/programs/img_programs1.jpg" width="485" height="auto">
+       <img  style="margin-top:-55px;" src="views/imatges/home/programs/img_programs1.jpg" width="485" height="auto">
        
        <h1 class="tipo_focused_titol" style="margin-top:45px;">One day programs</h1>
        <p class="tipo_agenda_text">The robot will sort scalpels, sterilize tools, and prepare operating rooms for surgery.</p>
@@ -399,9 +399,9 @@ onmouseout="this.src='imatges/apply_green.png'" style="margin-top:30px;"></a>
        
        <div class="span6">
        <div class="label pull-right">
-       <img style="margin-bottom:-30px;" src="imatges/home/programs/label_turquesa.png" width="43" height="92">
+       <img style="margin-bottom:-30px;" src="views/imatges/home/programs/label_turquesa.png" width="43" height="92">
        </div>
-       <img style="margin-top:-55px;" src="imatges/home/programs/img_programs2.jpg" width="485" height="auto">
+       <img style="margin-top:-55px;" src="views/imatges/home/programs/img_programs2.jpg" width="485" height="auto">
        <h1 class="tipo_focused_titol" style="margin-top:45px; color:#00aaba;">Specialized tracks</h1>
        <p class="tipo_agenda_text">The robot will sort scalpels, sterilize tools, and prepare operating rooms for surgery.</p>
        </div>
@@ -1285,21 +1285,21 @@ T. +34 933 10 33 30<br>
     
     
     
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="views/assets/js/jquery.js"></script>
+    <script src="views/assets/js/bootstrap-transition.js"></script>
+    <script src="views/assets/js/bootstrap-alert.js"></script>
+    <script src="views/assets/js/bootstrap-modal.js"></script>
+    <script src="views/assets/js/bootstrap-dropdown.js"></script>
+    <script src="views/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="views/assets/js/bootstrap-tab.js"></script>
+    <script src="views/assets/js/bootstrap-tooltip.js"></script>
+    <script src="views/assets/js/bootstrap-popover.js"></script>
+    <script src="views/assets/js/bootstrap-button.js"></script>
+    <script src="views/assets/js/bootstrap-collapse.js"></script>
+    <script src="views/assets/js/bootstrap-carousel.js"></script>
+    <script src="views/assets/js/bootstrap-typeahead.js"></script>
     
-    <script src="moebio.js"></script>
+    <script src="views/moebio.js"></script>
     
 
 

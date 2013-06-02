@@ -9,15 +9,28 @@ class homeController extends ControllerBase
 {
 		public function index(){
 			require "models/homeModel.php"; 	
-			$items = new homeModel();	
+		    require "models/crossconceptsModel.php"; 	
 			require "models/about_modulsModel.php"; 	
+		    require "models/crossconceptsModel.php"; 	
+		    require "models/agendaModel.php"; 	
+   		    require "models/newsModel.php"; 				
+   		    require "models/thoughtsModel.php"; 				
+   		    
+			$items = new homeModel();	
 			$about = new about_modulsModel();			
-		     require "models/crossconceptsModel.php"; 	
 			$cross = new crossconceptsModel();	    		
+
+			$agenda = new agendaModel();	    		
+			$news = new newsModel();	    		
+			$thou = new thoughtsModel();	    								
+			
 			$data = Array(
 				  "items" => $items->getAll(),
   				  "about" => $about->getAll(),
-  				  "cross" => $cross->getAll()
+  				  "cross" => $cross->getRelated(0,5),
+  				  "events" => $agenda->getRelated(0,4),
+  				  "news" =>$news->getRelated(0,4),
+  				  "thoughts" =>$thou->getRelated(0,4),
 		          );         
 			$this->view->show("index.php", $data);
 		}
