@@ -45,7 +45,7 @@
         
        <div class="row-fluid">
        
-       <? foreach($cross as $item): ?>
+       <? $i=1; foreach($cross as $item): ?>
        <div class="span6">
        
           <a href="crossconcepts/crossconceptsDetail/<?= $item['id'] ?>/<?= generate_seo_link($item['title']) ?>">
@@ -76,7 +76,11 @@
 </a>
 <hr style="margin-top:30px; margin-bottom:30px;">
          </div>
-         <? endforeach; ?>
+         <? 
+   if ($i % 2 == 0) echo '</div><div class="row-fluid">';
+   $i++;
+   endforeach; ?>
+
            <!--
 <div class="span6">
        

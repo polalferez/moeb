@@ -42,7 +42,10 @@
 <![endif]-->  
   
        
-       <p class="tipo_bio_text"> <div id="accordion2">
+       <p class="tipo_bio_text"> <div id="accordion2"> <!-- Els Accordion groups haurien de anar dintre del id=accordion? Em dona un error de css. -->
+       
+       
+        
 <div class="accordion-group1">
 
 <div class="accordion-heading">
@@ -58,6 +61,9 @@
 </div>
 
 <div class="row" style="margin-top:10px; margin-bottom:10px; ">
+<?= foreach($cross as $item): ?>
+       
+       <? endforeach; ?>
 <div class="span_challengers1" style="margin-top:10px; ">
 <img width="171" height="97" src="imatges/bio/challengers/john-collins.jpg">
 </div>
