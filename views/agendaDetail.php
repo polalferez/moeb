@@ -146,15 +146,14 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
 </p>
      
 <hr>
-     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"><?= $items['data_ini'] ?></span></p>
+     <p class="tipo_menu8">DATE:<span class="tipo_agenda_text"><?= $items['date_ini'] ?></span></p>
      <p class="tipo_menu8">TIME:<span class="tipo_agenda_text"><?= $items['time_ini'] ?></span></p>
      <p class="tipo_menu8">VENUE:<span class="tipo_agenda_text"><?= $items['venue'] ?></span></p>
-<p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"> Associació de Biotecnòlegs de Madrid
+<p class="tipo_menu8">ORGANIZERS:<span class="tipo_agenda_text"><?= $items['organisers'] ?>
 <br></span></p>
-<p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"> Federació Espanyola de Biotenòlegs (FEBiotech) i Societat Espanyola de Neurociència
-</span></p>
-<p class="tipo_menu8">FROM:<span class="tipo_agenda_text"> Id quos esequia quae</span></p>
-<p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="#"> www.loremipsum.com</a></span></p>
+<p class="tipo_menu8">WITH COLLABORATION:<span class="tipo_agenda_text"><?= $items['colaboradores'] ?></span></p>
+<p class="tipo_menu8">FROM:<span class="tipo_agenda_text"><?= $items['from_text'] ?></span></p>
+<p class="tipo_menu8">WEB:<span class="tipo_agenda_text"><a href="<?= $items['url'] ?>"><?= $items['name_url'] ?></a></span></p>
      <hr>
      
      <p class="tipo_news_text"><?= $items['content'] ?></p>
@@ -184,28 +183,7 @@ onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a><br><br>
     
     <img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
     <? endforeach; ?> 
-   <!--
-      
-   <p class="tipo_agenda_text"  style="padding-left:25px;"><img src="views/imatges/agenda/picto_agenda.png" width="20" height="auto"> 6 th. June 2013</p>
-     <p class="tipo_agenda_titol" style="padding-left:25px;">BIZ BARCELONA.<br>BIODESIGN: TECHNOLOGY INNOVATION<br> AS A DISCIPLINE</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">16:00 pm – 17:00 pm<br>
-VENUE: Montjuïc 
-Exhibition Centre 
-Av. Reina Maria Cristina, s/n
-08004 Barcelona
-<br></p>
-<img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
-<p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">
-Keynote speaker: Dan E. Azagury, MD Stanford Biodesgn Program Fellow, Co-Founder Ciel Medical, Inc.<br>
-Introduction by Jorge Juan Fernández, Moebio, Head of Academics.
-</p>
-     
-      <a href="http://www.bizbarcelona.com "><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a><br><br>
-<img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
- 
--->
- 
+    
  <p class="pull-right" style="margin-right:20px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_grey.png" onmouseover="this.src='views/imatges/thoughts/point_red.png'" onmouseout="this.src='views/imatges/thoughts/point_grey.png'"  width="8" height="8" style="margin-left:5px;"><img src="views/imatges/thoughts/point_red.png" width="8" height="8" style="margin-left:5px;"></p>     
 
  <img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
