@@ -30,6 +30,9 @@ class homeController extends ControllerBase
   				  "events" => $agenda->getRelated(0,4),
   				  "news" =>$news->getRelated(0,4),
   				  "thoughts" =>$thou->getRelated(0,4),
+  				  "highlight" => $courses->getHighlight(),
+  				  "highlight2" =>$courses->getsubHighlight(),
+  				  "other_programs" => $courses->getOtherPrograms(2)
 		          );         
 			$this->view->show("index.php", $data);
 		}

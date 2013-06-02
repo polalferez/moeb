@@ -9,7 +9,7 @@ class advisory_boardModel extends ModelBase
 {
 
 		public function getAll(){
-			$consulta = $this->db->prepare("SELECT * FROM advisory_board ");
+			$consulta = $this->db->prepare("SELECT * FROM advisory_board limit 5");
 			$consulta->execute();
 			return $consulta->fetchAll();
 		}

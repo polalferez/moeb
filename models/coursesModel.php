@@ -20,6 +20,22 @@ class coursesModel extends ModelBase
 			$consulta->execute();
 			return $consulta->fetch();
 		}
+		
+	
+  				  
+  		public function getHighlight(){
+  			$consulta = $this->db->prepare("SELECT * FROM courses WHERE highlight > 0 and coursetypes ='1' limit 1 ");
+			$consulta->execute();
+			return $consulta->fetch();
+  		}		  
+  		public function getsubHighlight(){
+  			$consulta = $this->db->prepare("SELECT * FROM courses WHERE subhighlight > 0 and coursetypes ='1' limit 1 ");
+			$consulta->execute();
+			return $consulta->fetch();
+  		}
+  		public function getOtherPrograms(){
+  		
+  		}
 		public function getByFIELD(){
 		
 		}

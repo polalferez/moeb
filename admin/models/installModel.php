@@ -6,7 +6,7 @@ class installModel extends ModelBase
 
         $config = Config::singleton();
         
-        $prefix = 'coursefiles'; //$config->get('db_prefix');
+        $prefix = 'agenda'; //$config->get('db_prefix');
         $dbname = $config->get('dbname');
    
         $consulta = $this->db->prepare('SHOW TABLES FROM '.$dbname);
