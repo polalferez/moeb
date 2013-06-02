@@ -505,68 +505,7 @@ onmouseout="this.src='views/imatges/home/highlights/button_verd.png'" style="mar
        </div>
     <?
    endforeach; ?></div>
-       <!--
-<div class="span3" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
-</a>
-       </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
-</a>
-       </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
-</a>
-       </div>
-       <div class="span3" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol_home" style="color:#EC1C24;">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="#">
-<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
-</a>
-       </div>
-       
-    
-       
-       
-       
-       </div>
-      
--->
-      </div>
+            </div>
       
 
  <div class="container">
@@ -594,50 +533,7 @@ Anurag Mairal (Director - Global Exchange Programs)
        <? if ($i % 2 == 0) echo '</div><div class="row-fluid">';
    	$i++;
        endforeach; ?></div>
-       
-       <!--
-
-       <div class="span6" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text"><?= $item['description'] ?></p>
-<a href="#">
-<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
-</a>
-       </div>
-       
-       
-       
-       </div>
-       <div class="row-fluid" style="margin-bottom:50px;">
-       <div class="span6" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<p class="tipo_agenda_text">
-The event counted on the participation of professors and BioDesign Standford's Fellows such as Anurag Mairal (Director - Global Exchange Programs)
-<br>
-<br>
-Anurag Mairal (Director - Global Exchange Programs)
-</p>
-<a href="#">
-<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
-</a>
-       </div>
-       <div class="span6" style="border:none; margin-top:20px;">
-       
-<p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
-<img src="views/imatges/home/thoughts/img_video.jpg" width="224" height="123">
-<a href="#">
-<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
-</a>
-       </div>
-       
-       
-       
-       
-       </div>
--->
-       
+              
        </div>
        
        <div class="span6">
