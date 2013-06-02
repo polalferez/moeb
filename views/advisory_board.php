@@ -61,9 +61,44 @@
 </div>
 
 <div class="row" style="margin-top:10px; margin-bottom:10px; ">
-<?= foreach($cross as $item): ?>
+<? $i=1 foreach($cross as $item): ?>
        
-       <? endforeach; ?>
+	<div class="accordion-group<?= $item['id']?>">
+<div class="accordion-heading">
+<div id="plus">
+<a class="accordion-toggle" data-toggle="collapse"  href="#collapseTwo">
+<img src="imatges/bio/plus.png" width="10" height="10" class="pull-right">
+</a>
+</div>
+<div id="plus2">
+<a class="accordion-toggle" data-toggle="collapse"  href="#collapseTwo">
+<img src="imatges/bio/less.png" width="10" height="10" class="pull-right">
+</a>
+</div>
+<div class="row" style="margin-top:10px; margin-bottom:10px; ">
+<div class="span_challengers1" style="margin-top:10px; ">
+<img width="171" height="97" src="data/img/<?= $item['foto']?>">
+</div>
+<div class="span_challengers2" style="margin-top:15px;">
+<p class="tipo_titol_bio_collapse">
+<?= $item['title']?><br>
+</p>
+<p class="tipo_text_bio_collapse"><?= $item['organization']?></p>
+<p class="tipo_text_bio_collapse">
+  <img src="views/imatges/about/advisory/picto_in.png" width="16" height="16"> <img src="views/imatges/about/advisory/picto_f.png" width="16" height="16"> <img src="views/imatges/about/advisory/picto_t.png" width="16" height="16"></p>
+</div>
+</div>
+</div>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+
+<p class="tipo_text_italic_collapse"><?= $item['description'] ?>
+</p>
+</div>
+</div>
+</div>       
+       
+<? endforeach; ?>
 <div class="span_challengers1" style="margin-top:10px; ">
 <img width="171" height="97" src="imatges/bio/challengers/john-collins.jpg">
 </div>

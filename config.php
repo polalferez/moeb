@@ -4,8 +4,8 @@
 
 	$config->set('lang','esp');
 	$config->set('base_title','Moebio');
-	$config->set('base_url','http://localhost/alphas/moebio/');
-	$config->set('base_url_data','http://localhost/alphas/moebio/data/');
+	$config->set('base_url','http://localhost/moebiu/');
+	$config->set('base_url_data','http://localhost/moebiu/data/');
 	$config->set('db_prefix','');
 
 	$config->set('big_h',327);
@@ -36,9 +36,9 @@
 	$config->set('viewsFolder', 'views/');
   
 	$config->set('dbhost', 'localhost');
-	$config->set('dbname', 'qqe208');
+	$config->set('dbname', 'moebius');
 	$config->set('dbuser', 'root');
-	$config->set('dbpass', 'tryagain');
+	$config->set('dbpass', '');
 
 /*
 	$config->set('dbhost', 'qqe208.cucurni.com');
