@@ -141,7 +141,7 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
      <p class="tipo_news_titol2" style="margin-bottom:25px;"><?= $items['description'] ?></p>
      
       <div id="video_image">
-     <img src="views/file/img/<?= $items['foto'] ?>" width="646" height="354">
+     <img src="data/img/<?= $items['foto'] ?>" width="646" height="354">
      </div>
      <div id="video_play">
      <div class="video-container">
@@ -159,13 +159,16 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="news.php">— MORE NEWS</a></h2>
 
       <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    
-     <p class="tipo_agenda_titol" style="padding-left:25px; padding-right:25px;">DEVICE TESTS DRUGS ON A TUMOUR THAT'S STILL IN THE BODY</p>
-      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;">The technology would allow oncologists to test potentially harmful compounds in tiny amounts before giving patients a full dose.</p>
+    <? foreach($related as $item): ?>
+     <p class="tipo_agenda_titol" style="padding-left:25px; padding-right:25px;"><?= $item['title'] ?></p>
+      <p class="tipo_agenda_text" style="padding-left:25px; padding-right:25px;"><?= $item['description'] ?></p>
      
       <a href="news2.php"><img src="views/imatges/agenda/moreinfo_verd.png" style="cursor:pointer; padding-left:25px;" width="77" height="auto" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'"
-onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a>
-         
+onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'"></a><br><br>
+    
+    
+    <img width="240" height="3" style="padding-left:25px;" src="views/imatges/about/linia_pastilla2.png">
+         <? endforeach; ?>
           
 
 </div>
