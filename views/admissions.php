@@ -141,10 +141,10 @@ type= "text/css" rel="stylesheet">
               <li  class="tipo_menu2 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT MOEBIO</a>
               
              <ul class="dropdown-menu">
-                 <li class="tipo_menu4"><a href="the_initiative.php">The initiative</a></li>
-                 <li class="tipo_menu4"><a href="why_barcelona.php">Why Barcelona</a></li>
-                 <li class="tipo_menu4"><a href="advisory_board.php">Advisory board</a></li>
-                  <li class="tipo_menu4"><a href="cross_concepts.php">Cross-concepts</a></li>
+                 <li class="tipo_menu4"><a href="the_initiative">The initiative</a></li>
+                 <li class="tipo_menu4"><a href="why_barcelona">Why Barcelona</a></li>
+                 <li class="tipo_menu4"><a href="advisory_board">Advisory board</a></li>
+                  <li class="tipo_menu4"><a href="cross_concepts">Cross-concepts</a></li>
                 </ul>
               </li>
               
@@ -152,21 +152,21 @@ type= "text/css" rel="stylesheet">
               
               
               
-              <li  class="tipo_menu2"><a href="courses.php">COURSES</a></li>
-              <li  class="tipo_menu2"><a href="thoughts.php">THOUGHTS</a></li>
+              <li  class="tipo_menu2"><a href="courses">COURSES</a></li>
+              <li  class="tipo_menu2"><a href="thoughts">THOUGHTS</a></li>
             </ul>
             <ul class="nav2">
             <li class="tipo_menu1"><a href="#" target="_blank">COMMUNITY</a></li>
              <div id="rat">|</div>
              <li class="tipo_menu1"><a href="http://blog.moebio.org" target="_blank">BLOG</a></li>
              <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="news.php">NEWS</a></li>
+              <li class="tipo_menu1"><a href="news">NEWS</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="agenda.php">AGENDA</a></li>
+              <li class="tipo_menu1"><a href="agenda">AGENDA</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="media.php" style="border:none;">MEDIA</a></li>
+              <li class="tipo_menu1"><a href="media" style="border:none;">MEDIA</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
+              <li class="tipo_menu1"><a href="contact" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
@@ -851,21 +851,21 @@ T. +34 933 10 33 30<br>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="views/assets/js/jquery.js"></script>
+    <script src="views/assets/js/bootstrap-transition.js"></script>
+    <script src="views/assets/js/bootstrap-alert.js"></script>
+    <script src="views/assets/js/bootstrap-modal.js"></script>
+    <script src="views/assets/js/bootstrap-dropdown.js"></script>
+    <script src="views/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="views/assets/js/bootstrap-tab.js"></script>
+    <script src="views/assets/js/bootstrap-tooltip.js"></script>
+    <script src="views/assets/js/bootstrap-popover.js"></script>
+    <script src="views/assets/js/bootstrap-button.js"></script>
+    <script src="views/assets/js/bootstrap-collapse.js"></script>
+    <script src="views/assets/js/bootstrap-carousel.js"></script>
+    <script src="views/assets/js/bootstrap-typeahead.js"></script>
     
-    <script src="moebio.js"></script>
+    <script src="views/moebio.js"></script>
     
 
 
