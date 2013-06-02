@@ -38,7 +38,7 @@ class FrontController
 		$LOGGED_IN = isset($_SESSION['initiated']) and $_SESSION['initiated'] and isset($_SESSION['accountId']) and $_SESSION['accountId'] > 0 and isset($_SESSION['HTTP_USER_AGENT']) and  $_SESSION['HTTP_USER_AGENT'] == $fingerprint;		
 		
 		// URL redireccion
-		if(get_param('p') != -1) $controllerName = get_param('p');
+		if(get_param('p') != -1) $controllerName = get_param('p')."Controller";
 		else  $controllerName = "homeController";
  
 		if(get_param('m') != -1) $actionName = get_param('m');
