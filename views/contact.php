@@ -57,10 +57,10 @@
 
 
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="moebio.css" rel="stylesheet" type="text/css"/>
-    <link media="only screen and (max-device-width: 480px)" href="iphone.css" 
+    <link href="views/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="views/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="views/moebio.css" rel="stylesheet" type="text/css"/>
+    <link media="only screen and (max-device-width: 480px)" href="views/iphone.css" 
 type= "text/css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -69,12 +69,12 @@ type= "text/css" rel="stylesheet">
    [endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="views/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="views/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="views/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="views/assets/ico/apple-touch-icon-57-precomposed.png">
    
-                                   <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
+                                   <link rel="shortcut icon" href="views/imatges/favicon/favicon_MOEBIO.ico">
                                    
                                     
     <style>
@@ -138,10 +138,10 @@ type= "text/css" rel="stylesheet">
               <li  class="tipo_menu2 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT MOEBIO</a>
               
              <ul class="dropdown-menu">
-                 <li class="tipo_menu4"><a href="the_initiative.php">The initiative</a></li>
-                 <li class="tipo_menu4"><a href="why_barcelona.php">Why Barcelona</a></li>
-                 <li class="tipo_menu4"><a href="advisory_board.php">Advisory board</a></li>
-                  <li class="tipo_menu4"><a href="cross_concepts.php">Cross-concepts</a></li>
+                 <li class="tipo_menu4"><a href="the_initiative">The initiative</a></li>
+                 <li class="tipo_menu4"><a href="why_barcelona">Why Barcelona</a></li>
+                 <li class="tipo_menu4"><a href="advisory_board">Advisory board</a></li>
+                  <li class="tipo_menu4"><a href="cross_concepts">Cross-concepts</a></li>
                 </ul>
               </li>
               
@@ -149,21 +149,21 @@ type= "text/css" rel="stylesheet">
               
               
               
-              <li  class="tipo_menu2"><a href="courses.php">COURSES</a></li>
-              <li  class="tipo_menu2"><a href="thoughts.php">THOUGHTS</a></li>
+              <li  class="tipo_menu2"><a href="courses">COURSES</a></li>
+              <li  class="tipo_menu2"><a href="thoughts">THOUGHTS</a></li>
             </ul>
             <ul class="nav2">
             <li class="tipo_menu1"><a href="#" target="_blank">COMMUNITY</a></li>
              <div id="rat">|</div>
              <li class="tipo_menu1"><a href="http://blog.moebio.org" target="_blank">BLOG</a></li>
              <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="news.php">NEWS</a></li>
+              <li class="tipo_menu1"><a href="news">NEWS</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="agenda.php">AGENDA</a></li>
+              <li class="tipo_menu1"><a href="agenda">AGENDA</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="media.php" style="border:none;">MEDIA</a></li>
+              <li class="tipo_menu1"><a href="media" style="border:none;">MEDIA</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
+              <li class="tipo_menu1"><a href="contact" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
@@ -678,17 +678,17 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
         <div class="row" style="margin-bottom:85px; margin-top:85px">
         
       <div class="span_footer1" style="min-height:120px;">
-      <p span class="tipo_menu17"><a href="the_initiative.php">About Moebio</a></p>
-      <p span class="tipo_menu17"><a href="courses.php">Courses</a></p>
-      <p span class="tipo_menu17"><a href="thoughts.php">Thoughts</a></p>
+      <p span class="tipo_menu17"><a href="the_initiative">About Moebio</a></p>
+      <p span class="tipo_menu17"><a href="courses">Courses</a></p>
+      <p span class="tipo_menu17"><a href="thoughts">Thoughts</a></p>
       </div>
       <div class="span_footer2 offset_footer" style="min-height:120px;">
-      <p span class="tipo_menu17"><a href="news.php">News</a></p>
-      <p span class="tipo_menu17"><a href="agenda.php">Agenda</a></p>
-      <p span class="tipo_menu17"><a href="contact.php">Contact</a></p>
+      <p span class="tipo_menu17"><a href="news">News</a></p>
+      <p span class="tipo_menu17"><a href="agenda">Agenda</a></p>
+      <p span class="tipo_menu17"><a href="contact">Contact</a></p>
       </div>
       <div class="span_footer2 offset_footer" style="height:132px;">
-      <p span class="tipo_menu18"><a href="legal.php">Legal disclaimer</a><br>
+      <p span class="tipo_menu18"><a href="legal">Legal disclaimer</a><br>
       <a href="http://blog.moebio.org" target="_blank">Blog</a><br>
        Webmap<br>
        
@@ -718,21 +718,21 @@ T. +34 933 10 33 30<br>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="views/assets/js/jquery.js"></script>
+    <script src="views/assets/js/bootstrap-transition.js"></script>
+    <script src="views/assets/js/bootstrap-alert.js"></script>
+    <script src="views/assets/js/bootstrap-modal.js"></script>
+    <script src="views/assets/js/bootstrap-dropdown.js"></script>
+    <script src="views/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="views/assets/js/bootstrap-tab.js"></script>
+    <script src="views/assets/js/bootstrap-tooltip.js"></script>
+    <script src="views/assets/js/bootstrap-popover.js"></script>
+    <script src="views/assets/js/bootstrap-button.js"></script>
+    <script src="views/assets/js/bootstrap-collapse.js"></script>
+    <script src="views/assets/js/bootstrap-carousel.js"></script>
+    <script src="views/assets/js/bootstrap-typeahead.js"></script>
     
-    <script src="moebio.js"></script>
+    <script src="views/moebio.js"></script>
     
 
 
