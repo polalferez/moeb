@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-
+.span_text_about img{
+	float:left; margin-right:20px; margin-bottom:20px;"
+	
+	}
  .img-wrap{
 
 overflow:hidden;

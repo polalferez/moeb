@@ -45,21 +45,22 @@
         
        <div class="row-fluid">
        
+       <? foreach($cross as $item): ?>
        <div class="span6">
        
-          <a href="#">
+          <a href="crossconcepts/crossconceptsDetail/<?= $item['id'] ?>/<?= generate_seo_link($item['title']) ?>">
           
          
         <div class="img-wrap" style="text-align:center; height:170px; margin-bottom:20px;">
         <img src="views/imatges/about/cross_concepts/img_cross.png" style="margin-bottom:20px;">
         <div class="img-info2" >
         
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >COLLINOVATE</h4>
+            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" ><?= $item['title'] ?></h4>
           
         </div>
         
         <div class="img-info" >
-            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" >COLLINOVATE</h4>
+            <h4 style="margin-left:10px; margin-right:10px; display: inline-block; margin-top:70px;" ><?= $item['title'] ?></h4>
             
         </div>
         
@@ -68,18 +69,16 @@
        
          </a>
          
-         <p class="tipo_agenda_titol">COLLINOVATE</p>
-<p class="tipo_agenda_text">
-Innovation does not take place in isolation. Truly productive invention is a team sport that requires the collaboration of minds from myriad perspectives. In the next decade we all will need to become Collinovators.<br>
-"You can invent alone. But you cannot innovate alone. You need partners".
-</p>
+         <p class="tipo_agenda_titol"><?= $item['title'] ?></p>
+<p class="tipo_agenda_text"><?= $item['description'] ?></p>
 <a href="collinovate.php">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="views/imatges/v1.png">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png">
 </a>
 <hr style="margin-top:30px; margin-bottom:30px;">
          </div>
-         
-           <div class="span6">
+         <? endforeach; ?>
+           <!--
+<div class="span6">
        
           <a href="#">
           
@@ -269,6 +268,7 @@ Innovation, growth and value creation are not random. Actually, there are patter
          </div>
        
        
+-->
        
        
        

@@ -178,7 +178,7 @@ onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25p
        endif; ?>
        
        
-       <?
+        <?
        if ($_GET['i'] == 'advisory-board'): 
        		include "advisory_board.php";       
         endif; ?>
