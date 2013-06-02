@@ -37,9 +37,7 @@ class View
                     }
           }
 
-    	echo '$DATA: ';
-    	print_r($vars);
-    	echo '<hr>';
+ 
     		if ($show_top_footer) include $config->get('viewsFolder')."includes/top.php";    		
 	       	include($path);
     		//if ($show_top_footer) include $config->get('viewsFolder')."includes/footer.php";
