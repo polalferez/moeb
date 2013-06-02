@@ -1,81 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Moebio | Accelerating Healthcare Entrepreneurship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="We are a disruptive talent initiative where health, business, technology and design meet.">
-    <meta name="keywords" content="Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
-    <meta name="author" content="">
-    <meta name="robots" content="index, follow" />
-    
-     
- <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript">
-  TypekitConfig = {
-    kitId: 'tcn6swg.js',
-    scriptTimeout: 5000
-  };
-  (function() {
-    var h = document.getElementsByTagName('html')[0];
-    h.className += ' wf-loading';
-    var t = setTimeout(function() {
-      h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, '');
-      h.className += ' wf-inactive';
-    }, TypekitConfig.scriptTimeout);
-    var tk = document.createElement('script');
-    tk.src = '//use.typekit.com/' + TypekitConfig.kitId + '.js';
-    tk.type = 'text/javascript';
-    tk.async = 'true';
-    tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      clearTimeout(t);
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(tk, s);
-  })();
-</script>
-   
-<!-- google analytics-->
-    <script type="text/javascript">
- 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38950454-1']);
-  _gaq.push(['_trackPageview']);
- 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
- 
-</script>
-
-
-
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="moebio.css" rel="stylesheet" type="text/css"/>
-    <link media="only screen and (max-device-width: 480px)" href="iphone.css" 
-type= "text/css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]> 
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-   [endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-   
-                                   <link rel="shortcut icon" href="imatges/favicon/favicon_MOEBIO.ico">
-                                   
+              
                                     
    <style>
   
@@ -130,8 +53,8 @@ type= "text/css" rel="stylesheet">
             <span class="icon-bar"></span>
           </button>
           
-          <a class="brand" href="index.php"><img src="imatges/logo.png" width="216" height="71"></a>
-          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="imatges/logo_bio.png"></a>
+          <a class="brand" href="index.php"><img src="views/imatges/logo.png" width="216" height="71"></a>
+          <a class="brand2 pull-right" href=" http://www.biocat.cat/en" target="_blank"><img src="views/imatges/logo_bio.png"></a>
           <div class="nav-collapse collapse">
             
              
@@ -166,7 +89,7 @@ type= "text/css" rel="stylesheet">
               <div id="rat">|</div>
               <li class="tipo_menu1"><a href="contact.php" style="border:none;">CONTACT</a></li>
               <div id="rat">|</div>
-              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
+              <li class="tipo_menu1"><a href="#" style="border:none;"><img src="views/imatges/home/search_small.jpg" width="11" height="11"> SEARCH</a>
               
               
               
@@ -186,18 +109,18 @@ type= "text/css" rel="stylesheet">
     
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
-      <h1 class="tipo_fil">Thoughts > Daniel Kraft<div class="dropdown pull-right">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
+      <h1 class="tipo_fil">Thoughts > <?= $items['title'] ?><div class="dropdown pull-right">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
     
-    <img src="imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="imatges/about/linia_vermella.png" width="3" height="16">
+    <img src="views/imatges/about/linia_vermella.png" width="3" height="16"><a href='javascript:window.print(); void 0;'><img src="views/imatges/about/print.png" width="16" height="14" style="margin-right:10px; margin-left:10px;"></a><!--<img src="views/imatges/about/linia_vermella.png" width="3" height="16">
     
-    <img src="imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
+    <img src="views/imatges/about/rss.png" width="14" height="14" style="margin-left:10px;">-->
     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <img src="imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/thoughts1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
-    <img src="imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/thoughts1.php&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
-    <img src="imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/thoughts1.php&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
+    <img src="views/imatges/popup_share/logo_in.png" width="11" height="11"> <span class="tipo_popup_share"><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.moebio.org/thoughts1.php&title=moebio &summary=moebio & source= moebio" target="_new">  Linkedin</a></span><br>
+    <img src="views/imatges/popup_share/logo_f.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://moebio.org/thoughts&amp;p[images][0]=http://&amp;p[title]=moebio&amp;p[summary]=moebio">Facebook</a></span><br>
+    <img src="views/imatges/popup_share/logo_t.png" width="11" height="11"> <span class="tipo_popup_share"><a target="_blank" href="https://twitter.com/intent/tweet?url=http://moebio.org/thoughts&amp;text=moebio&amp;via=moebio">Twitter</a></span><br>
     </ul>
     </div>
       
@@ -216,65 +139,62 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
       
      
-      
+
      <div class="row">
      <div class="span_text_about">
-     <h1 class="tipo_titol_thoughts_video">DANIEL KRAFT</h1>
-     <p class="tipo_news_titol2" style="margin-bottom:25px;">The robot will sort scalpels, sterilize tools, and prepare operating rooms for surgery.</p>
+     <h1 class="tipo_titol_ _video"><?= $items['title'] ?></h1>
+     <p class="tipo_news_titol2" style="margin-bottom:25px;"><?= $items['description'] ?></p>
      <div id="video_image1">
-     <img src="imatges/thoughts/img_video1_big.png" width="646" height="355">
+     <img src="data/img/<?= $items['foto'] ?>" width="646" height="355">
      </div>
      <div id="video_play1">
      <div class="video-container">
-          <iframe width="646" height="auto" src="http://www.youtube.com/embed/CH4TZteceas?rel=0&" frameborder="0" allowfullscreen></iframe>
+          <iframe width="646" height="auto" src="http://www.youtube.com/embed/<?= $items['video'] ?>" frameborder="0" allowfullscreen></iframe>
          </div>
      </div>
-     <p class="tipo_news_text" style="margin-top:20px;">Adiam re nit mos ne dolupti sinullitia aut maxim excearuptat quidero voluptatque est, seque sitiori busanduciet ommo comnihilique velentu rectoristios rem. Nam qui ad molore cone provita ssunt.<br><br>
-Et hari abor modit, quo tenimincil idundandis inciendis ducimus, sum que et autem ipsae suntincti doluptum num fugia nus, tem aliquianti ommo inim vel molupta quaectentur adipica tquam, quid maiore lit ventiisquo volupieturit lacitio. Ovid ut rem. Nequamentem iscim quis am res alicipsam, ut dolore niscitem autem facit qui inciatur asi ut volorepudias doluptas minctiuntem dolo bla niscidem repuda sandandit, si adi ipisitatas amuste sit la cus eum quaspicit, saerspi delibus maion preribus simpore iciunt et eatusandi rendae perum am veliqui cuptatquos dia pedissimus, sa sequatquunt alit, totatis invelia velitaspit quia volut et ut eiciat arum, et hil id est, nonse nonem ad evelibus nus sit, simillu ptasitate aliqui nonsecest Si dolupta prerumquosam id molendi taturio nsequiste nonsedisque placcullaut ut imincia que es ratur, in conserspedi te quidele cerrum quaessunt alia inisque nimi, soluptibus in re volora et qui cor a vellore icabor as magnihillab ilique inim volorum et alibust, sapedis rerum velicatur? Quistes erferume magnisqui beatest officta sperci arum aut litatem aut enihilicid et eos entur autes dolupientio es exerum, tetureicid quam si volorem rerferferum.</p>
-     <ul class="pager">
-    <li><a href="#">Tag1</a></li>
-    <li><a href="#">Offici</a></li>
-    <li><a href="#">Aquamarito</a></li>
-    <li><a href="#">Ilis deri</a></li>
-    <li><a href="#">Genisda</a></li>
-    <li><a href="#">Genisda</a></li>
-    </ul>
-     </div> 
+     <p class="tipo_news_text" style="margin-top:20px;"><?= $items['content'] ?></p>
+   <ul class="pager">
+<?
+$aux = explode(",",$items['tags']);
+ foreach ($aux as $tag): ?>
+  <li><a href="#"><?= $tag ?></a></li>
+ <? endforeach; ?>
+  </ul>     </div> 
       
       
       
           <div class="span_pastilladreta offset1" style="margin-top:0px; max-width:296px; margin-bottom:40px; ">
       <div id="backgroundpastilla">
-      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="thoughts.php">—  RELATED THOUGHTS</a></h2>
-      <img src="imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
+      <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;"><a href="thoughts">—  RELATED THOUGHTS</a></h2>
+      <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
     <h2 span class="tipo_titol_pastilla_verd" style="padding-left:25px;">JUAN ENRÍQUEZ</h2>
       
-    <a href="http://www2.technologyreview.com/emtech/11/video/#!/watch/the-age-of-the-life-code/" target="_blank"><img src="imatges/thoughts/img_video7.png" width="245" height="135"  style="padding-left:25px;"></a>
+    <a href="http://www2.technologyreview.com/emtech/11/video/#!/watch/the-age-of-the-life-code/" target="_blank"><img src="views/imatges/thoughts/img_video7.png" width="245" height="135"  style="padding-left:25px;"></a>
     
    
     <p class="tipo_thoughts_pastilla" style="margin-top:20px; padding-left:25px; padding-right:25px;">Respected business leader and entrepreneur addresses how the revolutions in life sciences will affect business, technology, and society at large.</p>
     
     <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/see_more.png'" onmouseover="this.src='imatges/see_more_vermell.png'" style="cursor:pointer; padding-left:25px;" src="imatges/see_more.png">
+<img width="77" height="auto" onmouseout="this.src='imatges/see_more.png'" onmouseover="this.src='imatges/see_more_vermell.png'" style="cursor:pointer; padding-left:25px;" src="views/imatges/see_more.png">
 </a> 
 
-          <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
       <h2 span class="tipo_titol_pastilla_verd" style="padding-left:25px;">CRAIG VENTER &amp; ERIC TOPOL</h2>
       
-    <a href="#"><img src="imatges/thoughts/related2.png" width="245" height="135"  style="padding-left:25px;"></a>
+    <a href="#"><img src="views/imatges/thoughts/related2.png" width="245" height="135"  style="padding-left:25px;"></a>
     
    
     <p class="tipo_thoughts_pastilla" style="margin-top:20px; padding-left:25px; padding-right:25px;">A conversation about how genomics has reshaped medicine, our understanding and the way we treat cancer and many other diseases, and what does the future hold.</p>
      <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/see_more.png'" onmouseover="this.src='imatges/see_more_vermell.png'" style="cursor:pointer; padding-left:25px;" src="imatges/see_more.png">
+<img width="77" height="auto" onmouseout="this.src='imatges/see_more.png'" onmouseover="this.src='imatges/see_more_vermell.png'" style="cursor:pointer; padding-left:25px;" src="views/imatges/see_more.png">
 </a> 
-     <img src="imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-     <p class="tipo_thoughts_pastilla" style="margin-top:20px; margin-bottom:0px; padding-left:25px; height:28px;"><a href="thoughts.php">See all</a></p>
+     <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+     <p class="tipo_thoughts_pastilla" style="margin-top:20px; margin-bottom:0px; padding-left:25px; height:28px;"><a href="thoughts">See all</a></p>
          
           
 
 </div>
-<img src="imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
+<img src="views/imatges/about/pastilla_dreta_puntes.png" width="296" height="46">
 </div>
       
       
@@ -304,7 +224,7 @@ Et hari abor modit, quo tenimincil idundandis inciendis ducimus, sum que et aute
 <div id="push">
         
         
-        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="imatges/wantto.png"
+        <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
 onmouseover="this.src='imatges/wantto_verd.png'"
 onmouseout="this.src='imatges/wantto.png'"></a> 
       
@@ -320,7 +240,7 @@ onmouseout="this.src='imatges/wantto.png'"></a>
  <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-header">
-<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
+<a href="#" data-dismiss="modal" aria-hidden="true" class="pull-right"><img src="views/imatges/modal/cross.png" width="37" height="37" style="margin-top:-40px;"></a>
 <h3 id="myModalLabel" class="tipo_titol_modal">—  REQUEST INFO</h3>
 <p class="tipo_text_modal">Do you want to keep updated of future events of MOEBIO?<br>
 Are you interested in applying to Design Health Barcelona 2013 program?<br> 
@@ -694,7 +614,7 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 
 
 
-<button type="submit" class="btn btn-link" ><img src="imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
+<button type="submit" class="btn btn-link" ><img src="views/imatges/modal/request.png" class="pull-right" width="106" height="29"  style="margin-bottom:40px;"></img></button>
 
 
 
@@ -707,15 +627,15 @@ Complete the form below explaining your enquiry and we will reply the earliest (
 <div id="push" style="margin-top:70px; margin-bottom:50px;">
         
         
-         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="imatges/socialpictos/linkedin1.png"
+         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
 onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
 onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
 onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
 onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a>
         
        
@@ -728,7 +648,7 @@ onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20
 
 
 
-      <div id="push"><p><img src="imatges/triangle.png" width="30" height="17"></p></div>
+      <div id="push"><p><img src="views/imatges/triangle.png" width="30" height="17"></p></div>
    
 
      <div id="footer">
@@ -776,21 +696,21 @@ T. +34 933 10 33 30<br>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="views/assets/js/jquery.js"></script>
+    <script src="views/assets/js/bootstrap-transition.js"></script>
+    <script src="views/assets/js/bootstrap-alert.js"></script>
+    <script src="views/assets/js/bootstrap-modal.js"></script>
+    <script src="views/assets/js/bootstrap-dropdown.js"></script>
+    <script src="views/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="views/assets/js/bootstrap-tab.js"></script>
+    <script src="views/assets/js/bootstrap-tooltip.js"></script>
+    <script src="views/assets/js/bootstrap-popover.js"></script>
+    <script src="views/assets/js/bootstrap-button.js"></script>
+    <script src="views/assets/js/bootstrap-collapse.js"></script>
+    <script src="views/assets/js/bootstrap-carousel.js"></script>
+    <script src="views/assets/js/bootstrap-typeahead.js"></script>
     
-    <script src="moebio.js"></script>
+    <script src="views/moebio.js"></script>
     
 
 
