@@ -5,7 +5,7 @@
 // Beto Ayesa contacto@phpninja.info
 
 
-class about_pagesController extends ControllerBase
+class aboutController extends ControllerBase
 {
 		public function index(){
 			require "models/about_pagesModel.php"; 	
@@ -13,7 +13,7 @@ class about_pagesController extends ControllerBase
 			$data = Array(
 				  "items" => $items->getAll()
 		          );         
-			$this->view->show("about_pages.php", $data);
+			$this->view->show("the_initiative.php", $data);
 		}
 		
 		public function detail(){
