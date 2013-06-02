@@ -173,7 +173,7 @@
         <h2 span class="tipo_menu14"><?= $items[0]['title'] ?></h2>
         <h2 span class="tipo_menu15"><?= $items[0]['description'] ?></h2>
  <p><a href="<?= $items[0]['url'] ?>"><img src="views/imatges/knowmoreverd.png" onmouseover="this.src='views/imatges/knowmorevermell.png'"
-onmouseout="this.src='imatges/knowmoreverd.png'" style="margin-top:10px;"></a></p>
+onmouseout="this.src='views/imatges/knowmoreverd.png'" style="margin-top:10px;"></a></p>
         </div>
           
         </div>
@@ -433,8 +433,8 @@ Programs</h1>
        
        <p span class="tipo_menu6">Biocapsules are an intensive training program in key management tools to succeed in biotechnology and medical technology companies.</p>
        
-        <a href="short_focused.php"><img src="views/imatges/focused/read_more_groc.png" onmouseover="this.src='imatges/focused/read_more_vermell.png'"
-onmouseout="this.src='imatges/focused/read_more_groc.png'" width="104px" height="auto" style="margin-top:20px;"></a></div>
+        <a href="short_focused.php"><img src="views/imatges/focused/read_more_groc.png" onmouseover="this.src='views/imatges/focused/read_more_vermell.png'"
+onmouseout="this.src='views/imatges/focused/read_more_groc.png'" width="104px" height="auto" style="margin-top:20px;"></a></div>
        
        
        
@@ -467,8 +467,8 @@ onmouseout="this.src='imatges/focused/read_more_groc.png'" width="104px" height=
 
 Innovation does not take place in isolation. Truly productive invention is a team sport that requires the collaboration of minds from myriad perspectives. In the next decade we all will need to become Collinovators.</p>
        
-       <a href="cross_concepts.php"><img src="views/imatges/home/highlights/button_verd.png" onmouseover="this.src='imatges/home/highlights/button_vermell.png'"
-onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-top:30px; margin-bottom:30px;"></a>
+       <a href="cross_concepts.php"><img src="views/imatges/home/highlights/button_verd.png" onmouseover="this.src='views/imatges/home/highlights/button_vermell.png'"
+onmouseout="this.src='views/imatges/home/highlights/button_verd.png'" style="margin-top:30px; margin-bottom:30px;"></a>
        
        </div>
        
@@ -495,7 +495,7 @@ onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-to
       </div>
       
 <hr style="border-color: #EEEEEE -moz-use-text-color;">
-<img  class="pull-right" style="margin-top:-40px;" src="imatges/home/upcomming/picto_upcomming.png" width="35" height="35">      
+<img  class="pull-right" style="margin-top:-40px;" src="views/imatges/home/upcomming/picto_upcomming.png" width="35" height="35">      
        <div class="row-fluid" style="margin-bottom:50px;">
        <? $i=1; foreach( $events as $item): ?>
    <div class="span3" style="border:none; margin-top:20px;">
@@ -517,7 +517,7 @@ onmouseout="this.src='imatges/home/highlights/button_verd.png'" style="margin-to
 
        <div class="span3" style="border:none; margin-top:20px;">
        <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
+<img width="20" height="auto" src="views/imatges/agenda/picto_agenda.png">
 16th. April 2013
 </p>
 <p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
@@ -528,12 +528,12 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
 </a>
        </div>
        <div class="span3" style="border:none; margin-top:20px;">
        <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
+<img width="20" height="auto" src="views/imatges/agenda/picto_agenda.png">
 16th. April 2013
 </p>
 <p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
@@ -544,12 +544,12 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
 </a>
        </div>
        <div class="span3" style="border:none; margin-top:20px;">
        <p class="tipo_agenda_text">
-<img width="20" height="auto" src="imatges/agenda/picto_agenda.png">
+<img width="20" height="auto" src="views/imatges/agenda/picto_agenda.png">
 16th. April 2013
 </p>
 <p class="tipo_agenda_titol_home">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
@@ -560,7 +560,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="event1.php">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_verd.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_verd.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_vermell.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_verd.png">
 </a>
        </div>
 -->
@@ -587,7 +587,7 @@ Anurag Mairal (Director - Global Exchange Programs)
       </div>
       
 <hr>
-<img  class="pull-right" style="margin-top:-40px;" src="imatges/home/latest_news/picto_latestnews.png" width="35" height="35">      
+<img  class="pull-right" style="margin-top:-40px;" src="views/imatges/home/latest_news/picto_latestnews.png" width="35" height="35">      
        <div class="row-fluid" style="margin-bottom:50px;">
        <? $i=1; foreach($news as $item): ?>
       <div class="span3" style="border:none; margin-top:20px;">
@@ -612,7 +612,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_vermell.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
 </a>
        </div>
        <div class="span3" style="border:none; margin-top:20px;">
@@ -625,7 +625,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_vermell.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
 </a>
        </div>
        <div class="span3" style="border:none; margin-top:20px;">
@@ -638,7 +638,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_vermell.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
 </a>
        </div>
        <div class="span3" style="border:none; margin-top:20px;">
@@ -651,7 +651,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img width="77" height="auto" onmouseout="this.src='imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="imatges/agenda/moreinfo_vermell.png">
+<img width="77" height="auto" onmouseout="this.src='views/imatges/agenda/moreinfo_vermell.png'" onmouseover="this.src='views/imatges/agenda/moreinfo_verd.png'" style="cursor:pointer;" src="views/imatges/agenda/moreinfo_vermell.png">
 </a>
        </div>
        
@@ -675,7 +675,7 @@ Anurag Mairal (Director - Global Exchange Programs)
 <p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
 <img src="views/imatges/home/thoughts/img_video.jpg" width="224" height="123"> 
 <a href="#">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
 </a>
        </div>
        <div class="span6" style="border:none; margin-top:20px;">
@@ -688,7 +688,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
 </a>
        </div>
        
@@ -706,7 +706,7 @@ The event counted on the participation of professors and BioDesign Standford's F
 Anurag Mairal (Director - Global Exchange Programs)
 </p>
 <a href="#">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
 </a>
        </div>
        <div class="span6" style="border:none; margin-top:20px;">
@@ -714,7 +714,7 @@ Anurag Mairal (Director - Global Exchange Programs)
 <p class="tipo_agenda_titol">DESIGN HEALTH BARCELONA INTRODUCTION EVENT</p>
 <img src="views/imatges/home/thoughts/img_video.jpg" width="224" height="123">
 <a href="#">
-<img onmouseout="this.src='imatges/v1.png'" onmouseover="this.src='imatges/v2.png'" src="imatges/v1.png" style="margin-top:20px;">
+<img onmouseout="this.src='views/imatges/v1.png'" onmouseover="this.src='views/imatges/v2.png'" src="views/imatges/v1.png" style="margin-top:20px;">
 </a>
        </div>
        
@@ -739,7 +739,7 @@ Life isn't about finding yourself. Life is about creating yourself." George Bern
  
        </div>
        <p class="tipo_agenda_titol" style="color:#A5A7AA; font-size:15px;">
-       <img  style="margin-top:40px;" src="imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
+       <img  style="margin-top:40px;" src="views/imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
        <span style="float:right; max-width:150px; margin-top:40px; margin-right: 20px;">
        MARTIN LUTZ<br><span style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic;">21/03/2013</span></span></p>
        </div>
@@ -754,7 +754,7 @@ Life isn't about finding yourself. Life is about creating yourself." George Bern
  
        </div>
        <p class="tipo_agenda_titol" style="color:#A5A7AA; font-size:15px;">
-       <img  style="margin-top:40px;" src="imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
+       <img  style="margin-top:40px;" src="views/imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
        <span style="float:right; max-width:150px; margin-top:40px; margin-right: 20px;">
        MARTIN LUTZ<br><span style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic;">21/03/2013</span></span></p>
        </div>
@@ -777,7 +777,7 @@ Life isn't about finding yourself. Life is about creating yourself." George Bern
  
        </div>
        <p class="tipo_agenda_titol" style="color:#A5A7AA; font-size:15px;">
-       <img  style="margin-top:40px;" src="imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
+       <img  style="margin-top:40px;" src="views/imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
        <span style="float:right; max-width:150px; margin-top:40px; margin-right: 20px;">
        MARTIN LUTZ<br><span style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic;">21/03/2013</span></span></p>
        </div>
@@ -792,7 +792,7 @@ Life isn't about finding yourself. Life is about creating yourself." George Bern
  
        </div>
        <p class="tipo_agenda_titol" style="color:#A5A7AA; font-size:15px;">
-       <img  style="margin-top:40px;" src="imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
+       <img  style="margin-top:40px;" src="views/imatges/home/latest_tweets/img_face.jpg" width="43" height="43">
        <span style="float:right; max-width:150px; margin-top:40px; margin-right: 20px;">
        MARTIN LUTZ<br><span style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic;">21/03/2013</span></span></p>
        </div>
@@ -828,8 +828,8 @@ Life isn't about finding yourself. Life is about creating yourself." George Bern
         
         
         <a href="http://applicationsform.moebio.org/request-info" target="_blank"><img src="views/imatges/wantto.png"
-onmouseover="this.src='imatges/wantto_verd.png'"
-onmouseout="this.src='imatges/wantto.png'"></a> 
+onmouseover="this.src='views/imatges/wantto_verd.png'"
+onmouseout="this.src='views/imatges/wantto.png'"></a> 
       
  
       
@@ -1229,15 +1229,15 @@ Complete the form below explaining your enquiry and we will reply the earliest (
         
         
         <a href="http://es.linkedin.com/in/moebiobarcelona/" target="_blank"><img src="views/imatges/socialpictos/linkedin1.png"
-onmouseover="this.src='imatges/socialpictos/linkedin2.png'"
-onmouseout="this.src='imatges/socialpictos/linkedin1.png'"></a> 
+onmouseover="this.src='views/imatges/socialpictos/linkedin2.png'"
+onmouseout="this.src='views/imatges/socialpictos/linkedin1.png'"></a> 
         
-        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='imatges/socialpictos/facebook2.png'"
-onmouseout="this.src='imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
+        <a href="http://www.facebook.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/facebook1.png" onmouseover="this.src='views/imatges/socialpictos/facebook2.png'"
+onmouseout="this.src='views/imatges/socialpictos/facebook1.png'" style="margin-left:20px;"></a> 
         
        
-        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='imatges/socialpictos/twiteer2.png'"
-onmouseout="this.src='imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a> 
+        <a href="https://twitter.com/moebiobarcelona" target="_blank"><img src="views/imatges/socialpictos/twiteer1.png" onmouseover="this.src='views/imatges/socialpictos/twiteer2.png'"
+onmouseout="this.src='views/imatges/socialpictos/twiteer1.png'"  style="margin-left:20px;"></a> 
         
        
        

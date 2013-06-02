@@ -63,10 +63,10 @@
               <li  class="tipo_menu2 dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT MOEBIO</a>
               
              <ul class="dropdown-menu">
-                 <li class="tipo_menu4"><a href="the_initiative.php">The initiative</a></li>
-                 <li class="tipo_menu4"><a href="why_barcelona.php">Why Barcelona</a></li>
-                 <li class="tipo_menu4"><a href="advisory_board.php">Advisory board</a></li>
-                  <li class="tipo_menu4"><a href="cross_concepts.php">Cross-concepts</a></li>
+                 <li class="tipo_menu4"><a href="about/1/the-initiative">The initiative</a></li>
+                 <li class="tipo_menu4"><a href="about/2/why-barcelona">Why Barcelona</a></li>
+                 <li class="tipo_menu4"><a href="about/3/advisory-board">Advisory board</a></li>
+                  <li class="tipo_menu4"><a href="about/4/cross-concepts">Cross-concepts</a></li>
                 </ul>
               </li>
               
@@ -109,7 +109,7 @@
     
       <!-- Begin page content -->
       <div class="container" style="margin-top:20px;">
-      <h1 class="tipo_fil">About Moebio  > The initiative<div class="dropdown pull-right">
+      <h1 class="tipo_fil">About Moebio  > <?= $items['title']?><div class="dropdown pull-right">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="views/imatges/about/share.png" onmouseover="this.src='imatges/about/share_verd.png'"
 onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="margin-right:10px;"></a>
     
@@ -132,14 +132,14 @@ onmouseout="this.src='imatges/about/share.png'" width="39" height="9" style="mar
       
       
       <div class="row">
-      
+
       
       
       <div class="span_pastilladreta" style="max-width:296px; margin-top:30px; ">
-      <h2 class="tipo_menu_bio" style="margin-top:0px; margin-bottom:0px;">The initiative</h2>
-      <h2 class="tipo_menu_bio2"  style="margin-top:0px; margin-bottom:0px;"><a href="why_barcelona.php">Why Barcelona</a></h2>
-      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="advisory_board.php">Advisory board</a></h2>
-      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="cross_concepts.php">Cross-concepts</a></h2>
+      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="about/page/2/why-barcelona">The initiative</a></h2>
+      <h2 class="tipo_menu_bio2"  style="margin-top:0px; margin-bottom:0px;"><a href="about/page/2/why-barcelona">Why Barcelona</a></h2>
+      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="about/page/3/advisory-board">Advisory board</a></h2>
+      <h2 class="tipo_menu_bio2" style="margin-top:0px; margin-bottom:0px;"><a href="about/page/4/cross-concepts">Cross-concepts</a></h2>
       
       
       </div>
@@ -167,14 +167,21 @@ onmouseout="this.src='imatges/bio/want_verd_petit.png'" style=" padding-left:25p
       
      
        <div class="span_text_about pull-right" style="margin-top:0px; ">
-       <h1 class="tipo_menu_bio_titol" style="padding-bottom:30px;">The initiative</h1>
+       <h1 class="tipo_menu_bio_titol" style="padding-bottom:30px;"><?= $items['title'] ?></h1>
        
 
-       <p class="tipo_bio_text"><img src="views/imatges/about/imatge_initiative.jpg" width="295" height="380" style="float:left; margin-right:20px; margin-bottom:20px;">MOEBIO is a disruptive talent development initiative of Biocat where life sciences, health, business and technology meet in a new level to accelerate entrepreneurship in healthcare. It is an integral, new educational programme focused on solving society's great problems and challenges by creating the future generation of innovators in healthcare. Through a unique combination of lectures and real experiences, it gives to talented professionals both the knowledge and the skills to boost the transition from ideas to products. MOEBIO acts as a catalyst for new business models and it fosters the creation of new companies and of innovative technologies and services in the healthcare sector. 
-Biocat is the organization that coordinates and promotes the biotechnology, biomedicine and medical technology sector in Catalonia. Created in 2006 thanks to the Government of Catalonia and the Barcelona City Council, Biocat brings together administrations, universities, research centers, companies and support bodies from all areas of the biomedicine and biotechnology sector with a major goal: to create an environment with a strong research system, active transfer of knowledge and an entrepreneuring business fabric that acts as a driving force for the country's economy and contributes to the wellbeing of society as a whole.
-</p>
+       <!-- <p class="tipo_bio_text"><img src="views/imatges/about/imatge_initiative.jpg" width="295" height="380" style="float:left; margin-right:20px; margin-bottom:20px;"> --><?= $items['content'] ?></p>
+       
+       <?
+       if ($_GET['i'] == 'cross-concepts'):
+       		include "cross_concepts.php";
+       endif; ?>
        
        
+       <?
+       if ($_GET['i'] == 'advisory-board'): 
+       		include "cross_concepts.php";       
+        endif; ?>
        
        
        
@@ -188,19 +195,21 @@ Biocat is the organization that coordinates and promotes the biotechnology, biom
       <div id="backgroundpastilla">
       <h2 class="tipo_menu3" style="padding-left:25px; padding-top:20px;">—MOEBIO'S VISION</h2>
       <img src="views/imatges/about/linia_pastilla1.png" width="240" height="3"  style="padding-left:25px;">
-    <h2 span class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHY</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">To empower leaders who can transform society and make a better future. 
+      
+      <?
+      
+      $i = 0;
+      foreach($about as $item):
+      if ($i > 0): ?>
+       <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
+      <? endif;	?>
+    <h2 span class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> <?= $item['title']?></h2>
+          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;"><?= $item['content']?>
 </p>
-          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-      <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> HOW</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">Training a new generation of entrepreneurs to solve widespread global needs in the healthcare system.</p>
-          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> WHAT</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px;">A 8 months full time Design Health course and short focused programs.</p>
-          <img src="views/imatges/about/linia_pastilla2.png" width="240" height="3" style="padding-left:25px;">
-          <h2 class="tipo_menu3" style="padding-left:25px;"><img src="views/imatges/redarrow.png" width="10" height="auto" style="margin-top:-5px;"> FOR WHOM</h2>
-          <p class="tipo_menu4" style=" max-width:240px; padding-left:25px; height:76px; margin-bottom:0px;">Graduates and PhDs in Health, Bio, Tech, Business and Design.</p>
+         
           
+      <? endforeach; ?>
+  
           
 
 </div>

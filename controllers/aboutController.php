@@ -15,7 +15,19 @@ class aboutController extends ControllerBase
 		          );         
 			$this->view->show("about.php", $data);
 		}
-		
+		public function page(){
+			$params = gett();
+			require "models/about_pagesModel.php"; 	
+			require "models/about_modulsModel.php"; 
+			$about = new about_modulsModel();
+			$items = new about_pagesModel();			
+			$data = Array(
+				  "items" => $items->getById($params["a"]),
+				  "about" => $about->getAll()
+
+		          );         
+			$this->view->show("about.php", $data);
+		}
 		public function detail(){
 			$params = gett();
 			require "models/about_pagesModel.php"; 	
