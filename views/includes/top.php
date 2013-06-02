@@ -7,7 +7,7 @@
     <meta name="keywords" content="Moebio, Biodesign, Barcelona, life sciences, Technology, design, trainning program, learning, education, entrepreneurship, disruptive, change-makers, healthcare, hospital ,X-thinking, innovation, challengers, inspiration, multidisciplinary, MOOCs, science, business,">
     <meta name="author" content="">
     <meta name="robots" content="index, follow" />
-    
+    <base href="<?= $base_url ?>" content="<?= $base_url ?>">
   
  <script type="text/javascript" src="//use.typekit.net/tcn6swg.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
